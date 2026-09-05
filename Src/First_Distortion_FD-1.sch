@@ -1,18 +1,17 @@
 EESchema Schematic File Version 4
-LIBS:First_Distortion_FD-1-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 8268 11693 portrait
 encoding utf-8
 Sheet 1 1
-Title "First Distortion FD-1"
+Title "Эффект гитарный\\nFirst Distortion FD-1\\nСхема электрическая\\nпринципиальная"
 Date "11.21"
 Rev "0"
-Comp "Litone Electronics"
-Comment1 ""
-Comment2 ""
+Comp "Litone Lab"
+Comment1 "2026080016.001 Э3"
+Comment2 "Алимов"
 Comment3 ""
-Comment4 "Алимов"
+Comment4 ""
 $EndDescr
 $Comp
 L First_Distortion_FD-1-rescue:OPAMP_uA741-AAV_SCH-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue DA1
@@ -928,8 +927,6 @@ Text Notes 4700 4850 0    59   ~ 0
 "CHECK"
 Text Notes 4400 3100 0    59   ~ 0
 "SIM/ASIM"\n\n
-Text Notes 3400 10850 0    87   ~ 0
-Схема электрическая принципиальная
 $Comp
 L Switch:SW_SPST S2
 U 1 1 61B14721

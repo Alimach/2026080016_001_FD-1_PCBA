@@ -148,7 +148,7 @@ ENDDEF
 #
 # First_Distortion_FD-1-rescue_CON-Connector_Generic_GOST-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue
 #
-DEF ~First_Distortion_FD-1-rescue_CON-Connector_Generic_GOST-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue X 0 0 N N 1 F N
+DEF First_Distortion_FD-1-rescue_CON-Connector_Generic_GOST-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue X 0 0 N N 1 F N
 F0 "X" -250 100 79 H V L CNN
 F1 "First_Distortion_FD-1-rescue_CON-Connector_Generic_GOST-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue" -200 -100 79 H I C CNN
 F2 "" 0 0 60 H I C CNN
@@ -231,7 +231,7 @@ ENDDEF
 #
 # First_Distortion_FD-1-rescue_GND_AAV-AAV_SCH-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue
 #
-DEF ~First_Distortion_FD-1-rescue_GND_AAV-AAV_SCH-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue #PWR 0 1 N N 1 F P
+DEF First_Distortion_FD-1-rescue_GND_AAV-AAV_SCH-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue #PWR 0 1 N N 1 F P
 F0 "#PWR" 0 100 59 H I C CNN
 F1 "First_Distortion_FD-1-rescue_GND_AAV-AAV_SCH-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue" 0 -100 59 H I C CNN
 F2 "" 0 0 59 H I C CNN
@@ -244,7 +244,7 @@ ENDDEF
 #
 # First_Distortion_FD-1-rescue_OPAMP_uA741-AAV_SCH-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue
 #
-DEF ~First_Distortion_FD-1-rescue_OPAMP_uA741-AAV_SCH-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue D 0 40 Y Y 2 L N
+DEF First_Distortion_FD-1-rescue_OPAMP_uA741-AAV_SCH-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue D 0 40 Y Y 2 L N
 F0 "D" 500 300 50 H V C CNN
 F1 "First_Distortion_FD-1-rescue_OPAMP_uA741-AAV_SCH-Distortion_plus-rescue-First_Distortion_FD-1_rev.0-rescue" 500 200 60 H I C CNN
 F2 "" 400 250 60 H I C CNN
