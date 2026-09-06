@@ -21,6 +21,8 @@ F 0 "DA1" H 3750 2737 50  0000 C CNN
 F 1 "MAA741" H 3750 2631 50  0000 C CNN
 F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 3650 2700 60  0001 C CNN
 F 3 "" H 3250 2450 60  0001 C CNN
+F 4 "Микросхема uA741, DIP-8" H 3250 2450 50  0001 C CNN "Name"
+F 5 "D_THT_DIP-8_uA741" H 3250 2450 50  0001 C CNN "IPN"
 	1    3250 2450
 	1    0    0    -1  
 $EndComp
@@ -32,6 +34,8 @@ F 0 "DA1" H 5678 5803 50  0000 L CNN
 F 1 "MAA741" H 5678 5697 50  0000 L CNN
 F 2 "Housings_DIP:DIP-8_W7.62mm_LongPads" H 5250 6100 60  0001 C CNN
 F 3 "" H 4850 5850 60  0001 C CNN
+F 4 "Микросхема uA741, DIP-8" H 4850 5850 50  0001 C CNN "Name"
+F 5 "D_THT_DIP-8_uA741" H 4850 5850 50  0001 C CNN "IPN"
 	2    4850 5850
 	1    0    0    -1  
 $EndComp
@@ -58,6 +62,8 @@ F 0 "R4" V 2743 2450 50  0000 C CNN
 F 1 "10k" V 2834 2450 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2880 2450 50  0001 C CNN
 F 3 "~" H 2950 2450 50  0001 C CNN
+F 4 "R_THT_DIN0207_10k" H 2950 2450 50  0001 C CNN "IPN"
+F 5 "Резистор THT металлоплёночный DIN0207 10 кОм ±5%, 0,25 Вт" H 2950 2450 50  0001 C CNN "Name"
 	1    2950 2450
 	0    1    1    0   
 $EndComp
@@ -69,6 +75,10 @@ F 0 "C2" V 2398 2450 50  0000 C CNN
 F 1 "10n" V 2489 2450 50  0000 C CNN
 F 2 "Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 2688 2300 50  0001 C CNN
 F 3 "~" H 2650 2450 50  0001 C CNN
+F 4 "C_THT_RECT-L7-W2.5-H6.5_10n" H 2650 2450 50  0001 C CNN "IPN"
+F 5 "B32529C0103" H 2650 2450 50  0001 C CNN "MPN"
+F 6 "Epcos" H 2650 2450 50  0001 C CNN "Manufacturer"
+F 7 "Конденсатор THT MKT 10 нФ ±20%, 63 В, ДхШхВ 7х2,5х6,5 мм, шаг выв. 5 мм" H 2650 2450 50  0001 C CNN "Name"
 	1    2650 2450
 	0    1    1    0   
 $EndComp
@@ -80,6 +90,10 @@ F 0 "C1" H 2385 2704 50  0000 R CNN
 F 1 "1n" H 2385 2795 50  0000 R CNN
 F 2 "Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 2538 2600 50  0001 C CNN
 F 3 "~" H 2500 2750 50  0001 C CNN
+F 4 "C_THT_RECT-L7-W2.5-H6.5_1n" H 2500 2750 50  0001 C CNN "IPN"
+F 5 "B32529C0102" H 2500 2750 50  0001 C CNN "MPN"
+F 6 "Epcos" H 2500 2750 50  0001 C CNN "Manufacturer"
+F 7 "Конденсатор THT MKT 1 нФ ±20%, 63 В, ДхШхВ 7х2,5х6,5 мм, шаг выв. 5 мм" H 2500 2750 50  0001 C CNN "Name"
 	1    2500 2750
 	-1   0    0    1   
 $EndComp
@@ -91,6 +105,8 @@ F 0 "R1" H 2500 2700 50  0000 R CNN
 F 1 "1M" H 2500 2800 50  0000 R CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2230 2750 50  0001 C CNN
 F 3 "~" H 2300 2750 50  0001 C CNN
+F 4 "R_THT_DIN0207_1M" H 2300 2750 50  0001 C CNN "IPN"
+F 5 "Резистор THT металлоплёночный DIN0207 1 МОм ±5%, 0,25 Вт" H 2300 2750 50  0001 C CNN "Name"
 	1    2300 2750
 	-1   0    0    1   
 $EndComp
@@ -124,6 +140,10 @@ F 0 "C3" V 2748 3000 50  0000 C CNN
 F 1 "47n" V 2839 3000 50  0000 C CNN
 F 2 "Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 3038 2850 50  0001 C CNN
 F 3 "~" H 3000 3000 50  0001 C CNN
+F 4 "C_THT_RECT-L7-W2.5-H6.5_47n" H 3000 3000 50  0001 C CNN "IPN"
+F 5 "B32529C0473" H 3000 3000 50  0001 C CNN "MPN"
+F 6 "Epcos" H 3000 3000 50  0001 C CNN "Manufacturer"
+F 7 "Конденсатор THT MKT 47 нФ ±20%, 63 В,  ДхШхВ 7х2,5х6,5 мм, шаг выв. 5 мм" H 3000 3000 50  0001 C CNN "Name"
 	1    3000 3000
 	0    1    1    0   
 $EndComp
@@ -139,6 +159,8 @@ F 0 "R6" V 3543 3000 50  0000 C CNN
 F 1 "1M" V 3634 3000 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3680 3000 50  0001 C CNN
 F 3 "~" H 3750 3000 50  0001 C CNN
+F 4 "R_THT_DIN0207_1M" H 3750 3000 50  0001 C CNN "IPN"
+F 5 "Резистор THT металлоплёночный DIN0207 1 МОм ±5%, 0,25 Вт" H 3750 3000 50  0001 C CNN "Name"
 	1    3750 3000
 	0    1    1    0   
 $EndComp
@@ -159,6 +181,10 @@ F 0 "C5" V 3498 3350 50  0000 C CNN
 F 1 "10p" V 3589 3350 50  0000 C CNN
 F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 3788 3200 50  0001 C CNN
 F 3 "~" H 3750 3350 50  0001 C CNN
+F 4 "C_THT_RECT-L5-W2.5-H5_10p" H 3750 3350 50  0001 C CNN "IPN"
+F 5 "JYM1H100JBN" H 3750 3350 50  0001 C CNN "MPN"
+F 6 "JB" H 3750 3350 50  0001 C CNN "Manufacturer"
+F 7 "Конденсатор THT MLCC NP0 дисковый 10 пФ ±5%, 50 В, ØхШ 5х2,5 мм, шаг выв. 5 мм" H 3750 3350 50  0001 C CNN "Name"
 	1    3750 3350
 	0    1    1    0   
 $EndComp
@@ -179,6 +205,8 @@ F 0 "R2" H 2630 3204 50  0000 R CNN
 F 1 "4k7" H 2630 3295 50  0000 R CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2630 3250 50  0001 C CNN
 F 3 "~" H 2700 3250 50  0001 C CNN
+F 4 "R_THT_DIN0207_4k7" H 2700 3250 50  0001 C CNN "IPN"
+F 5 "Резистор THT металлоплёночный DIN0207 4,7 кОм ±5%, 0,25 Вт" H 2700 3250 50  0001 C CNN "Name"
 	1    2700 3250
 	-1   0    0    1   
 $EndComp
@@ -194,6 +222,10 @@ F 0 "RP1" H 2631 3604 50  0000 R CNN
 F 1 "C500k" H 2631 3695 50  0000 R CNN
 F 2 "Alimach:Alpha" H 2700 3650 50  0001 C CNN
 F 3 "~" H 2700 3650 50  0001 C CNN
+F 4 "RP_THT_RV16AF-20_C500k" H 2700 3650 50  0001 C CNN "Alt1_IPN"
+F 5 "Потенциометр RV16AF-20 500 кОм, RevLog (C)" H 2700 3650 50  0001 C CNN "Alt1_Name"
+F 6 "RP_THT_RV16AF-10_C500k" H 2700 3650 50  0001 C CNN "IPN"
+F 7 "Потенциометр RV16AF-10 500 кОм, RevLog (C)" H 2700 3650 50  0001 C CNN "Name"
 	1    2700 3650
 	1    0    0    1   
 $EndComp
@@ -205,6 +237,10 @@ F 0 "C7" V 4805 2450 50  0000 C CNN
 F 1 "1u" V 4714 2450 50  0000 C CNN
 F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.50mm" H 4588 2300 50  0001 C CNN
 F 3 "~" H 4550 2450 50  0001 C CNN
+F 4 "C_THT_RAD-D5-H11_1u" H 4550 2450 50  0001 C CNN "IPN"
+F 5 "JRB1H010M02000500110" H 4550 2450 50  0001 C CNN "MPN"
+F 6 "JB" H 4550 2450 50  0001 C CNN "Manufacturer"
+F 7 "Конденсатор THT электролитич. алюм. радиальный 1 мкФ ±20%, 50 В, 85 °C, ØхВ 5х11 мм, шаг выв. 2 мм" H 4550 2450 50  0001 C CNN "Name"
 	1    4550 2450
 	0    -1   -1   0   
 $EndComp
@@ -219,6 +255,8 @@ F 0 "R10" V 4643 2450 50  0000 C CNN
 F 1 "10k" V 4734 2450 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4780 2450 50  0001 C CNN
 F 3 "~" H 4850 2450 50  0001 C CNN
+F 4 "R_THT_DIN0207_10k" H 4850 2450 50  0001 C CNN "IPN"
+F 5 "Резистор THT металлоплёночный DIN0207 10 кОм ±5%, 0,25 Вт" H 4850 2450 50  0001 C CNN "Name"
 	1    4850 2450
 	0    1    1    0   
 $EndComp
@@ -230,6 +268,10 @@ F 0 "RP2" H 6430 2654 50  0000 R CNN
 F 1 "A50k" H 6430 2745 50  0000 R CNN
 F 2 "Alimach:Alpha" H 6500 2700 50  0001 C CNN
 F 3 "~" H 6500 2700 50  0001 C CNN
+F 4 "RP_THT_RV16AF-20_A50k" H 6500 2700 50  0001 C CNN "Alt1_IPN"
+F 5 "Потенциометр RV16AF-20 50 кОм, Log (A)" H 6500 2700 50  0001 C CNN "Alt1_Name"
+F 6 "RP_THT_RV16AF-10_A50k" H 6500 2700 50  0001 C CNN "IPN"
+F 7 "Потенциометр RV16AF-10 50 кОм, Log (A)" H 6500 2700 50  0001 C CNN "Name"
 	1    6500 2700
 	1    0    0    1   
 $EndComp
@@ -241,6 +283,10 @@ F 0 "VD2" V 5054 2880 50  0000 L CNN
 F 1 "1N34" V 5145 2880 50  0000 L CNN
 F 2 "Diodes_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 5100 2800 50  0001 C CNN
 F 3 "~" H 5100 2800 50  0001 C CNN
+F 4 "VD_THT_DO-35_1N34" H 5100 2800 50  0001 C CNN "IPN"
+F 5 "Диод германиевый 1N34" H 5100 2800 50  0001 C CNN "Name"
+F 6 "Любой выводной германиевый маломощный диод (макс. размер DO-41)" H 5100 2800 50  0001 C CNN "Note"
+F 7 "" H 5100 2800 50  0001 C CNN "Alt1_IPN"
 	1    5100 2800
 	0    1    1    0   
 $EndComp
@@ -252,6 +298,10 @@ F 0 "VD3" V 5500 2900 50  0000 L CNN
 F 1 "1N34" V 5400 2900 50  0000 L CNN
 F 2 "Diodes_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 5450 2800 50  0001 C CNN
 F 3 "~" H 5450 2800 50  0001 C CNN
+F 4 "VD_THT_DO-35_1N34" H 5450 2800 50  0001 C CNN "IPN"
+F 5 "Диод германиевый 1N34" H 5450 2800 50  0001 C CNN "Name"
+F 6 "Любой выводной германиевый маломощный диод (макс. размер DO-41)" H 5450 2800 50  0001 C CNN "Note"
+F 7 "" H 5450 2800 50  0001 C CNN "Alt1_IPN"
 	1    5450 2800
 	0    1    -1   0   
 $EndComp
@@ -272,6 +322,10 @@ F 0 "C9" H 5735 2754 50  0000 R CNN
 F 1 "1n" H 5735 2845 50  0000 R CNN
 F 2 "Capacitors_THT:C_Rect_L7.0mm_W2.5mm_P5.00mm" H 5888 2650 50  0001 C CNN
 F 3 "~" H 5850 2800 50  0001 C CNN
+F 4 "C_THT_RECT-L7-W2.5-H6.5_1n" H 5850 2800 50  0001 C CNN "IPN"
+F 5 "B32529C0102" H 5850 2800 50  0001 C CNN "MPN"
+F 6 "Epcos" H 5850 2800 50  0001 C CNN "Manufacturer"
+F 7 "Конденсатор THT MKT 1 нФ ±20%, 63 В, ДхШхВ 7х2,5х6,5 мм, шаг выв. 5 мм" H 5850 2800 50  0001 C CNN "Name"
 	1    5850 2800
 	-1   0    0    1   
 $EndComp
@@ -344,6 +398,8 @@ F 0 "R5" H 3080 2204 50  0000 R CNN
 F 1 "1M" H 3080 2295 50  0000 R CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3080 2250 50  0001 C CNN
 F 3 "~" H 3150 2250 50  0001 C CNN
+F 4 "R_THT_DIN0207_1M" H 3150 2250 50  0001 C CNN "IPN"
+F 5 "Резистор THT металлоплёночный DIN0207 1 МОм ±5%, 0,25 Вт" H 3150 2250 50  0001 C CNN "Name"
 	1    3150 2250
 	-1   0    0    1   
 $EndComp
@@ -362,6 +418,9 @@ F 0 "R3" V 2543 5500 50  0000 C CNN
 F 1 "10R" V 2634 5500 50  0000 C CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2680 5500 50  0001 C CNN
 F 3 "~" H 2750 5500 50  0001 C CNN
+F 4 "R_THT_DIN0207_10R" H 2750 5500 50  0001 C CNN "IPN"
+F 5 "Резистор THT металлоплёночный DIN0207 10 Ом ±5%, 0,25 Вт" H 2750 5500 50  0001 C CNN "Name"
+F 6 "" H 2750 5500 50  0001 C CNN "Note"
 	1    2750 5500
 	0    1    1    0   
 $EndComp
@@ -370,9 +429,13 @@ L Device:D VD1
 U 1 1 61A669E9
 P 3000 5700
 F 0 "VD1" V 2950 5400 50  0000 L CNN
-F 1 "1N4007" V 3050 5300 50  0000 L CNN
+F 1 "1N4001" V 3050 5300 50  0000 L CNN
 F 2 "Diodes_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 3000 5700 50  0001 C CNN
 F 3 "~" H 3000 5700 50  0001 C CNN
+F 4 "VD_THT_DO-41_1N4001" H 3000 5700 50  0001 C CNN "IPN"
+F 5 "Диод 1N4001 (DO-41)" H 3000 5700 50  0001 C CNN "Name"
+F 6 "Любой диод DO-41 средней мощности, V > 25 В" H 3000 5700 50  0001 C CNN "Note"
+F 7 "" H 3000 5700 50  0001 C CNN "Alt1_IPN"
 	1    3000 5700
 	0    1    1    0   
 $EndComp
@@ -388,6 +451,10 @@ F 0 "C4" H 3368 5746 50  0000 L CNN
 F 1 "100u" H 3368 5655 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.50mm" H 3288 5550 50  0001 C CNN
 F 3 "~" H 3250 5700 50  0001 C CNN
+F 4 "C_THT_RAD-D5-H11_100u" H 3250 5700 50  0001 C CNN "IPN"
+F 5 "JRB1C101M02000500110" H 3250 5700 50  0001 C CNN "MPN"
+F 6 "JB" H 3250 5700 50  0001 C CNN "Manufacturer"
+F 7 "Конденсатор THT электролитич. алюм. радиальный 100 мкФ ±20%, 16 В, 85 °C, ØхВ 5х11 мм, шаг выв. 2 мм" H 3250 5700 50  0001 C CNN "Name"
 	1    3250 5700
 	1    0    0    -1  
 $EndComp
@@ -399,6 +466,8 @@ F 0 "C8" H 4700 6050 50  0000 L CNN
 F 1 "100n" H 4700 5950 50  0000 L CNN
 F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 4638 5800 50  0001 C CNN
 F 3 "~" H 4600 5950 50  0001 C CNN
+F 4 "C_THT_RECT-L5-W2.5-H5_100n" H 4600 5950 50  0001 C CNN "IPN"
+F 5 "Конденсатор THT X5R дисковый 100 нФ ±20%, 50 В, ØхШ 5х2,5 мм, шаг выв. 5 мм" H 4600 5950 50  0001 C CNN "Name"
 	1    4600 5950
 	1    0    0    -1  
 $EndComp
@@ -413,6 +482,8 @@ F 0 "R7" H 3820 5746 50  0000 L CNN
 F 1 "1M" H 3820 5655 50  0000 L CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3680 5700 50  0001 C CNN
 F 3 "~" H 3750 5700 50  0001 C CNN
+F 4 "R_THT_DIN0207_1M" H 3750 5700 50  0001 C CNN "IPN"
+F 5 "Резистор THT металлоплёночный DIN0207 1 МОм ±5%, 0,25 Вт" H 3750 5700 50  0001 C CNN "Name"
 	1    3750 5700
 	1    0    0    -1  
 $EndComp
@@ -426,6 +497,8 @@ F 0 "R8" H 3820 6146 50  0000 L CNN
 F 1 "1M" H 3820 6055 50  0000 L CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3680 6100 50  0001 C CNN
 F 3 "~" H 3750 6100 50  0001 C CNN
+F 4 "R_THT_DIN0207_1M" H 3750 6100 50  0001 C CNN "IPN"
+F 5 "Резистор THT металлоплёночный DIN0207 1 МОм ±5%, 0,25 Вт" H 3750 6100 50  0001 C CNN "Name"
 	1    3750 6100
 	1    0    0    -1  
 $EndComp
@@ -439,6 +512,10 @@ F 0 "C6" H 4268 6146 50  0000 L CNN
 F 1 "1u" H 4268 6055 50  0000 L CNN
 F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.50mm" H 4188 5950 50  0001 C CNN
 F 3 "~" H 4150 6100 50  0001 C CNN
+F 4 "C_THT_RAD-D5-H11_1u" H 4150 6100 50  0001 C CNN "IPN"
+F 5 "JRB1H010M02000500110" H 4150 6100 50  0001 C CNN "MPN"
+F 6 "JB" H 4150 6100 50  0001 C CNN "Manufacturer"
+F 7 "Конденсатор THT электролитич. алюм. радиальный 1 мкФ ±20%, 50 В, 85 °C, ØхВ 5х11 мм, шаг выв. 2 мм" H 4150 6100 50  0001 C CNN "Name"
 	1    4150 6100
 	1    0    0    -1  
 $EndComp
@@ -481,6 +558,8 @@ F 0 "HL1" V 4547 5080 50  0000 L CNN
 F 1 "3mm red" V 4638 5080 50  0000 L CNN
 F 2 "LEDs:LED_D3.0mm" H 4600 5000 50  0001 C CNN
 F 3 "~" H 4600 5000 50  0001 C CNN
+F 4 "Светодиод выводной красный, Ø 3 мм" H 4600 5000 50  0001 C CNN "Name"
+F 5 "LED_THT_D3_Red" H 4600 5000 50  0001 C CNN "IPN"
 	1    4600 5000
 	0    1    1    0   
 $EndComp
@@ -492,6 +571,8 @@ F 0 "R9" H 4670 5346 50  0000 L CNN
 F 1 "4k7" H 4670 5255 50  0000 L CNN
 F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 4530 5300 50  0001 C CNN
 F 3 "~" H 4600 5300 50  0001 C CNN
+F 4 "R_THT_DIN0207_4k7" H 4600 5300 50  0001 C CNN "IPN"
+F 5 "Резистор THT металлоплёночный DIN0207 4,7 кОм ±5%, 0,25 Вт" H 4600 5300 50  0001 C CNN "Name"
 	1    4600 5300
 	1    0    0    -1  
 $EndComp
@@ -574,6 +655,10 @@ F 0 "VD4" V 5500 3350 50  0000 L CNN
 F 1 "1N34" V 5400 3350 50  0000 L CNN
 F 2 "Diodes_THT:D_DO-41_SOD81_P7.62mm_Horizontal" H 5450 3250 50  0001 C CNN
 F 3 "~" H 5450 3250 50  0001 C CNN
+F 4 "VD_THT_DO-35_1N34" H 5450 3250 50  0001 C CNN "IPN"
+F 5 "Диод германиевый 1N34" H 5450 3250 50  0001 C CNN "Name"
+F 6 "Любой выводной германиевый маломощный диод (макс. размер DO-41)" H 5450 3250 50  0001 C CNN "Note"
+F 7 "" H 5450 3250 50  0001 C CNN "Alt1_IPN"
 	1    5450 3250
 	0    1    -1   0   
 $EndComp
@@ -603,6 +688,8 @@ F 0 "R11" H 5170 3296 50  0000 L CNN
 F 1 "0" H 5170 3205 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 5030 3250 50  0001 C CNN
 F 3 "~" H 5100 3250 50  0001 C CNN
+F 4 "R_SMD_0805_0R" H 5100 3250 50  0001 C CNN "IPN"
+F 5 "Резистор SMD 0805 0 Ом" H 5100 3250 50  0001 C CNN "Name"
 	1    5100 3250
 	1    0    0    -1  
 $EndComp
@@ -620,6 +707,9 @@ F 0 "XS1" H 1969 2387 50  0000 C CNN
 F 1 "Jack_6.3" H 2000 2300 50  0000 C CNN
 F 2 "Alimach:Jack_6.3_Stereo_2" H 1650 2150 60  0001 C CNN
 F 3 "" H 1650 2150 60  0001 C CNN
+F 4 "" H 1650 2150 50  0001 C CNN "Alt1_IPN"
+F 5 "Гнездо Jack 6,3 мм NMJ6HCD2, TRS" H 1650 2150 50  0001 C CNN "Name"
+F 6 "X_THT_NMJ6HCD2" H 1650 2150 50  0001 C CNN "IPN"
 	1    1650 2150
 	-1   0    0    -1  
 $EndComp
@@ -678,6 +768,9 @@ F 0 "X1" H 2019 5625 50  0000 C CNN
 F 1 "DC_Jack_PCB" H 2019 5534 50  0000 C CNN
 F 2 "Connectors:BARREL_JACK" H 1700 5400 60  0001 C CNN
 F 3 "" H 1700 5400 60  0001 C CNN
+F 4 "" H 1700 5400 50  0001 C CNN "Alt1_IPN"
+F 5 "Гнездо DS-210B, 2,1х5,5 мм, пайка на плату" H 1700 5400 50  0001 C CNN "Name"
+F 6 "X_THT_DS-210B-2.1x5.5" H 1700 5400 50  0001 C CNN "IPN"
 	1    1700 5400
 	-1   0    0    -1  
 $EndComp
@@ -689,6 +782,9 @@ F 0 "X3" H 2000 6950 50  0000 C CNN
 F 1 "Battery_Conn" H 2000 6850 50  0000 C CNN
 F 2 "Alimach:Conn_x2" H 1700 6750 60  0001 C CNN
 F 3 "" H 1700 6750 60  0001 C CNN
+F 4 "" H 1700 6750 50  0001 C CNN "Alt1_IPN"
+F 5 "Разъём для батареи типа \"Крона\" боковой " H 1700 6750 50  0001 C CNN "Name"
+F 6 "X_9V-Bat-Snap" H 1700 6750 50  0001 C CNN "IPN"
 	1    1700 6750
 	-1   0    0    -1  
 $EndComp
@@ -700,6 +796,10 @@ F 0 "S1" H 6850 2275 50  0000 C CNN
 F 1 "3PDT" H 6850 2366 50  0000 C CNN
 F 2 "Alimach:3PDT_Standart_Wire" H 6850 2700 50  0001 C CNN
 F 3 "" H 6850 2700 50  0001 C CNN
+F 4 "S_THT_SF17020F-0302_3PDT" H 6850 2700 50  0001 C CNN "Alt1_IPN"
+F 5 "Переключатель ножной 3PDT SF17020F-0302" H 6850 2700 50  0001 C CNN "Alt1_Name"
+F 6 "S_THT_SF17010F-0302_3PDT" H 6850 2700 50  0001 C CNN "IPN"
+F 7 "Переключатель ножной 3PDT SF17010F-0302" H 6850 2700 50  0001 C CNN "Name"
 	1    6850 2700
 	-1   0    0    1   
 $EndComp
@@ -711,6 +811,10 @@ F 0 "S1" H 4400 4175 50  0000 C CNN
 F 1 "3PDT" H 4400 4266 50  0000 C CNN
 F 2 "Alimach:3PDT_Standart_Wire" H 4400 4600 50  0001 C CNN
 F 3 "" H 4400 4600 50  0001 C CNN
+F 4 "S_THT_SF17020F-0302_3PDT" H 4400 4600 50  0001 C CNN "Alt1_IPN"
+F 5 "Переключатель ножной 3PDT SF17020F-0302" H 4400 4600 50  0001 C CNN "Alt1_Name"
+F 6 "S_THT_SF17010F-0302_3PDT" H 4400 4600 50  0001 C CNN "IPN"
+F 7 "Переключатель ножной 3PDT SF17010F-0302" H 4400 4600 50  0001 C CNN "Name"
 	2    4400 4600
 	1    0    0    1   
 $EndComp
@@ -722,6 +826,10 @@ F 0 "S1" H 2200 2050 50  0000 C CNN
 F 1 "3PDT" H 2200 2150 50  0000 C CNN
 F 2 "Alimach:3PDT_Standart_Wire" H 2100 2450 50  0001 C CNN
 F 3 "" H 2100 2450 50  0001 C CNN
+F 4 "S_THT_SF17020F-0302_3PDT" H 2100 2450 50  0001 C CNN "Alt1_IPN"
+F 5 "Переключатель ножной 3PDT SF17020F-0302" H 2100 2450 50  0001 C CNN "Alt1_Name"
+F 6 "S_THT_SF17010F-0302_3PDT" H 2100 2450 50  0001 C CNN "IPN"
+F 7 "Переключатель ножной 3PDT SF17010F-0302" H 2100 2450 50  0001 C CNN "Name"
 	3    2100 2450
 	1    0    0    1   
 $EndComp
@@ -788,6 +896,8 @@ F 0 "X2" H 2019 6325 50  0000 C CNN
 F 1 "DC_Jack_Wire" H 2019 6234 50  0000 C CNN
 F 2 "Connectors:Fan_Pin_Header_Straight_1x03" H 1700 6100 60  0001 C CNN
 F 3 "" H 1700 6100 60  0001 C CNN
+F 4 "Гнездо питания 2,1х5,5 мм, на панель, крепёжное отверстие Ø 11 мм, гайка снизу, под пайку провода" H 1700 6100 50  0001 C CNN "Name"
+F 5 "X_THT_XS-2.1x5.5-Panel-D11" H 1700 6100 50  0001 C CNN "IPN"
 	1    1700 6100
 	-1   0    0    -1  
 $EndComp
@@ -935,6 +1045,9 @@ F 0 "S2" V 5000 3600 50  0000 R CNN
 F 1 "SW_SPST" V 4900 3700 50  0000 R CNN
 F 2 "Alimach:Conn_x2" H 4900 3250 50  0001 C CNN
 F 3 "" H 4900 3250 50  0001 C CNN
+F 4 "Микротумблер SMTS-101, ON-OFF, SPST, установочное отверстие 5 мм, 2 контакта" H 4900 3250 50  0001 C CNN "Name"
+F 5 "" H 4900 3250 50  0001 C CNN "Alt1_IPN"
+F 6 "S_THT_SMTS-101" H 4900 3250 50  0001 C CNN "IPN"
 	1    4900 3250
 	0    -1   -1   0   
 $EndComp
@@ -950,6 +1063,9 @@ F 0 "XS2" H 7600 2650 60  0000 L CNN
 F 1 "Jack_6.3" H 7450 2550 60  0000 L CNN
 F 2 "Alimach:Jack_6.3_Stereo_2" H 7200 2400 60  0001 C CNN
 F 3 "" H 7200 2400 60  0001 C CNN
+F 4 "" H 7200 2400 50  0001 C CNN "Alt1_IPN"
+F 5 "Гнездо Jack 6,3 мм NMJ6HCD2, TRS" H 7200 2400 50  0001 C CNN "Name"
+F 6 "X_THT_NMJ6HCD2" H 7200 2400 50  0001 C CNN "IPN"
 	1    7200 2400
 	1    0    0    -1  
 $EndComp
