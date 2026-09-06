@@ -1,5 +1,7 @@
 (sym_lib_table
-  (lib (name Distortion_plus-rescue)(type Legacy)(uri ${KIPRJMOD}/Distortion_plus-rescue.lib)(options "")(descr ""))
-  (lib (name First_Distortion_FD-1_rev.0-rescue)(type Legacy)(uri ${KIPRJMOD}/First_Distortion_FD-1_rev.0-rescue.lib)(options "")(descr ""))
-  (lib (name First_Distortion_FD-1-rescue)(type Legacy)(uri ${KIPRJMOD}/First_Distortion_FD-1-rescue.lib)(options "")(descr ""))
+	(version 7)
+	(lib (name "Distortion_plus-rescue") (type "Legacy") (uri "${KIPRJMOD}/Distortion_plus-rescue.lib") (options "") (descr ""))
+	(lib (name "First_Distortion_FD-1_rev.0-rescue") (type "Legacy") (uri "${KIPRJMOD}/First_Distortion_FD-1_rev.0-rescue.lib") (options "") (descr ""))
+	(lib (name "First_Distortion_FD-1-rescue") (type "Legacy") (uri "${KIPRJMOD}/First_Distortion_FD-1-rescue.lib") (options "") (descr ""))
+	(lib (name "First_Distortion_FD-1-cache") (type "Legacy") (uri "E:/1_Projects/2026080016_001_FD-1_PCBA/Src/First_Distortion_FD-1-cache.lib") (options "") (descr "Кэш-библиотека устаревшего проекта"))
 )
