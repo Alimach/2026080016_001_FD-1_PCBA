@@ -5,12 +5,10 @@
 	(uuid "9ae8a131-9f13-49bd-8fb7-91ebb13a6119")
 	(paper "A4" portrait)
 	(title_block
-		(title "Эффект гитарный\\nFirst Distortion FD-1\\nСхема электрическая\\nпринципиальная")
+		(title "Эффект дисторшн\\nFD-1\\nСхема электрическая\\nпринципиальная")
 		(date "11.21")
 		(rev "0")
-		(company "Litone Lab")
 		(comment 1 "2026080016.001 Э3")
-		(comment 2 "Алимов")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -3606,7 +3604,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 43.18) (xy 58.42 43.18)
+			(xy 167.64 43.18) (xy 62.23 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3906,7 +3904,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 63.5) (xy 168.91 43.18)
+			(xy 167.64 63.5) (xy 167.64 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4096,6 +4094,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 57.15) (xy 58.42 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f1e9949-a972-4296-b748-2acf46e4c9a0")
+	)
+	(wire
+		(pts
 			(xy 95.25 140.97) (xy 95.25 139.7)
 		)
 		(stroke
@@ -4246,7 +4254,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 57.15) (xy 58.42 43.18)
+			(xy 62.23 57.15) (xy 62.23 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4656,6 +4664,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 63.5) (xy 168.91 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f836cd5c-495b-4778-b7b1-37ea4c408afa")
+	)
+	(wire
+		(pts
 			(xy 109.22 76.2) (xy 109.22 62.23)
 		)
 		(stroke
@@ -4735,7 +4753,7 @@
 				)
 			)
 		)
-		(property "Value" "MAA741"
+		(property "Value" "uA741"
 			(at 95.25 57.6326 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4769,6 +4787,7 @@
 		)
 		(property "Description" ""
 			(at 82.55 62.23 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4777,7 +4796,7 @@
 				)
 			)
 		)
-		(property "Name" "Микросхема uA741, DIP-8"
+		(property "Name" "Микросхема"
 			(at 82.55 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4788,7 +4807,84 @@
 				)
 			)
 		)
-		(property "IPN" "D_THT_DIP-8_uA741"
+		(property "IPN" ""
+			(at 82.55 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "DIP8"
+			(at 82.55 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 82.55 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 82.55 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 82.55 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" ""
+			(at 82.55 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" ""
+			(at 82.55 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
 			(at 82.55 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4851,7 +4947,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MAA741"
+		(property "Value" "uA741"
 			(at 144.2212 152.4762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4886,6 +4982,7 @@
 		)
 		(property "Description" ""
 			(at 123.19 148.59 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4894,7 +4991,7 @@
 				)
 			)
 		)
-		(property "Name" "Микросхема uA741, DIP-8"
+		(property "Name" "Микросхема"
 			(at 123.19 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -4905,7 +5002,84 @@
 				)
 			)
 		)
-		(property "IPN" "D_THT_DIP-8_uA741"
+		(property "IPN" ""
+			(at 123.19 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "DIP8"
+			(at 123.19 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 123.19 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 123.19 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 123.19 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" ""
+			(at 123.19 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" ""
+			(at 123.19 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
 			(at 123.19 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -5002,6 +5176,7 @@
 		)
 		(property "Description" ""
 			(at 80.01 52.07 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5044,7 +5219,7 @@
 				)
 			)
 		)
-		(property "Value" "Jack_6.3"
+		(property "Value" "NMJ6HCD2"
 			(at 33.02 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5078,6 +5253,7 @@
 		)
 		(property "Description" ""
 			(at 41.91 54.61 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5097,7 +5273,7 @@
 				)
 			)
 		)
-		(property "Name" "Гнездо Jack 6,3 мм NMJ6HCD2, TRS"
+		(property "Name" "Гнездо Jack 6,3 мм TRS NMJ6HCD2"
 			(at 41.91 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5108,7 +5284,106 @@
 				)
 			)
 		)
-		(property "IPN" "X_THT_NMJ6HCD2"
+		(property "IPN" ""
+			(at 41.91 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 41.91 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 41.91 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 41.91 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 41.91 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" ""
+			(at 41.91 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" ""
+			(at 41.91 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
+			(at 41.91 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "NMJ6HCD2"
+			(at 41.91 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Neutrik"
 			(at 41.91 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5201,6 +5476,7 @@
 		)
 		(property "Description" ""
 			(at 74.93 62.23 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5209,7 +5485,7 @@
 				)
 			)
 		)
-		(property "IPN" "R_THT_DIN0207_10k"
+		(property "IPN" ""
 			(at 74.93 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5220,8 +5496,85 @@
 				)
 			)
 		)
-		(property "Name" "Резистор THT металлоплёночный DIN0207 10 кОм ±5%, 0,25 Вт"
+		(property "Name" "Резистор THT металлоплёночный "
 			(at 74.93 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "DIN0207"
+			(at 74.93 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.125W"
+			(at 74.93 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 74.93 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 74.93 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" ""
+			(at 74.93 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" ""
+			(at 74.93 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
+			(at 74.93 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5301,6 +5654,7 @@
 		)
 		(property "Description" ""
 			(at 67.31 62.23 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5309,7 +5663,7 @@
 				)
 			)
 		)
-		(property "IPN" "C_THT_RECT-L7-W2.5-H6.5_10n"
+		(property "IPN" ""
 			(at 67.31 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5342,8 +5696,85 @@
 				)
 			)
 		)
-		(property "Name" "Конденсатор THT MKT 10 нФ ±20%, 63 В, ДхШхВ 7х2,5х6,5 мм, шаг выв. 5 мм"
+		(property "Name" "Конденсатор THT металлоплёночный"
 			(at 67.31 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "C-THT-RECT-L7-W2.5-H6.5"
+			(at 67.31 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 67.31 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 67.31 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "63V"
+			(at 67.31 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" "5"
+			(at 67.31 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "MKT"
+			(at 67.31 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
+			(at 67.31 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5425,6 +5856,7 @@
 		)
 		(property "Description" ""
 			(at 63.5 69.85 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5433,7 +5865,7 @@
 				)
 			)
 		)
-		(property "IPN" "C_THT_RECT-L7-W2.5-H6.5_1n"
+		(property "IPN" ""
 			(at 63.5 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5466,7 +5898,84 @@
 				)
 			)
 		)
-		(property "Name" "Конденсатор THT MKT 1 нФ ±20%, 63 В, ДхШхВ 7х2,5х6,5 мм, шаг выв. 5 мм"
+		(property "Name" "Конденсатор THT металлоплёночный"
+			(at 63.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "C-THT-RECT-L7-W2.5-H6.5"
+			(at 63.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 63.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 63.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "63V"
+			(at 63.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" "5"
+			(at 63.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "MKT"
+			(at 63.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
 			(at 63.5 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5549,6 +6058,7 @@
 		)
 		(property "Description" ""
 			(at 58.42 69.85 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5557,7 +6067,7 @@
 				)
 			)
 		)
-		(property "IPN" "R_THT_DIN0207_1M"
+		(property "IPN" ""
 			(at 58.42 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5568,7 +6078,84 @@
 				)
 			)
 		)
-		(property "Name" "Резистор THT металлоплёночный DIN0207 1 МОм ±5%, 0,25 Вт"
+		(property "Name" "Резистор THT металлоплёночный "
+			(at 58.42 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "DIN0207"
+			(at 58.42 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.125W"
+			(at 58.42 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 58.42 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 58.42 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" ""
+			(at 58.42 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" ""
+			(at 58.42 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
 			(at 58.42 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5651,6 +6238,7 @@
 		)
 		(property "Description" ""
 			(at 58.42 73.66 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5728,6 +6316,7 @@
 		)
 		(property "Description" ""
 			(at 63.5 73.66 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5803,6 +6392,7 @@
 		)
 		(property "Description" ""
 			(at 76.2 76.2 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5811,7 +6401,7 @@
 				)
 			)
 		)
-		(property "IPN" "C_THT_RECT-L7-W2.5-H6.5_47n"
+		(property "IPN" ""
 			(at 76.2 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5844,8 +6434,85 @@
 				)
 			)
 		)
-		(property "Name" "Конденсатор THT MKT 47 нФ ±20%, 63 В,  ДхШхВ 7х2,5х6,5 мм, шаг выв. 5 мм"
+		(property "Name" "Конденсатор THT металлоплёночный"
 			(at 76.2 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "C-THT-RECT-L7-W2.5-H6.5"
+			(at 76.2 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 76.2 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 76.2 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "63V"
+			(at 76.2 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" "5"
+			(at 76.2 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "MKT"
+			(at 76.2 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
+			(at 76.2 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5925,6 +6592,7 @@
 		)
 		(property "Description" ""
 			(at 95.25 76.2 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5933,7 +6601,7 @@
 				)
 			)
 		)
-		(property "IPN" "R_THT_DIN0207_1M"
+		(property "IPN" ""
 			(at 95.25 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5944,8 +6612,85 @@
 				)
 			)
 		)
-		(property "Name" "Резистор THT металлоплёночный DIN0207 1 МОм ±5%, 0,25 Вт"
+		(property "Name" "Резистор THT металлоплёночный "
 			(at 95.25 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "DIN0207"
+			(at 95.25 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.125W"
+			(at 95.25 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 95.25 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 95.25 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" ""
+			(at 95.25 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" ""
+			(at 95.25 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
+			(at 95.25 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6025,6 +6770,7 @@
 		)
 		(property "Description" ""
 			(at 95.25 85.09 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6033,7 +6779,7 @@
 				)
 			)
 		)
-		(property "IPN" "C_THT_RECT-L5-W2.5-H5_10p"
+		(property "IPN" ""
 			(at 95.25 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6066,8 +6812,85 @@
 				)
 			)
 		)
-		(property "Name" "Конденсатор THT MLCC NP0 дисковый 10 пФ ±5%, 50 В, ØхШ 5х2,5 мм, шаг выв. 5 мм"
+		(property "Name" "Конденсатор THT керамический"
 			(at 95.25 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "C-THT-RECT-L5-W2.5-H5"
+			(at 95.25 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 95.25 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 95.25 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 95.25 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" "5"
+			(at 95.25 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "NP0"
+			(at 95.25 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
+			(at 95.25 85.09 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6149,6 +6972,7 @@
 		)
 		(property "Description" ""
 			(at 68.58 82.55 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6157,7 +6981,7 @@
 				)
 			)
 		)
-		(property "IPN" "R_THT_DIN0207_4k7"
+		(property "IPN" ""
 			(at 68.58 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6168,7 +6992,84 @@
 				)
 			)
 		)
-		(property "Name" "Резистор THT металлоплёночный DIN0207 4,7 кОм ±5%, 0,25 Вт"
+		(property "Name" "Резистор THT металлоплёночный "
+			(at 68.58 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "DIN0207"
+			(at 68.58 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.125W"
+			(at 68.58 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 68.58 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 68.58 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" ""
+			(at 68.58 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" ""
+			(at 68.58 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
 			(at 68.58 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6251,6 +7152,7 @@
 		)
 		(property "Description" ""
 			(at 43.18 73.66 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6327,8 +7229,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Обратнологарифмический (C)"
 			(at 68.58 92.71 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6359,7 +7262,7 @@
 				)
 			)
 		)
-		(property "IPN" "RP_THT_RV16AF-10_C500k"
+		(property "IPN" ""
 			(at 68.58 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6370,7 +7273,106 @@
 				)
 			)
 		)
-		(property "Name" "Потенциометр RV16AF-10 500 кОм, RevLog (C)"
+		(property "Name" "Потенциометр RV16AF-10"
+			(at 68.58 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "RV16AF-10"
+			(at 68.58 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 68.58 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 68.58 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 68.58 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" ""
+			(at 68.58 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" ""
+			(at 68.58 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
+			(at 68.58 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 68.58 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Alpha"
 			(at 68.58 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -6454,6 +7456,7 @@
 		)
 		(property "Description" ""
 			(at 115.57 62.23 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6462,7 +7465,7 @@
 				)
 			)
 		)
-		(property "IPN" "C_THT_RAD-D5-H11_1u"
+		(property "IPN" ""
 			(at 115.57 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6495,8 +7498,85 @@
 				)
 			)
 		)
-		(property "Name" "Конденсатор THT электролитич. алюм. радиальный 1 мкФ ±20%, 50 В, 85 °C, ØхВ 5х11 мм, шаг выв. 2 мм"
+		(property "Name" "Конденсатор THT электролитический алюминиевый"
 			(at 115.57 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "C-THT-RADIAL-D5-H11"
+			(at 115.57 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 115.57 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 115.57 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 115.57 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" "2.5"
+			(at 115.57 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "AL-EL"
+			(at 115.57 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" "85 °C"
+			(at 115.57 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6576,6 +7656,7 @@
 		)
 		(property "Description" ""
 			(at 123.19 62.23 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6584,7 +7665,7 @@
 				)
 			)
 		)
-		(property "IPN" "R_THT_DIN0207_10k"
+		(property "IPN" ""
 			(at 123.19 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -6595,8 +7676,85 @@
 				)
 			)
 		)
-		(property "Name" "Резистор THT металлоплёночный DIN0207 10 кОм ±5%, 0,25 Вт"
+		(property "Name" "Резистор THT металлоплёночный "
 			(at 123.19 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "DIN0207"
+			(at 123.19 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.125W"
+			(at 123.19 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 123.19 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 123.19 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" ""
+			(at 123.19 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" ""
+			(at 123.19 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
+			(at 123.19 62.23 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6677,8 +7835,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Логарифмический (A)"
 			(at 165.1 68.58 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6709,7 +7868,7 @@
 				)
 			)
 		)
-		(property "IPN" "RP_THT_RV16AF-10_A50k"
+		(property "IPN" ""
 			(at 165.1 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6720,7 +7879,106 @@
 				)
 			)
 		)
-		(property "Name" "Потенциометр RV16AF-10 50 кОм, Log (A)"
+		(property "Name" "Потенциометр RV16AF-10"
+			(at 165.1 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "RV16AF-10"
+			(at 165.1 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 165.1 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 165.1 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 165.1 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" ""
+			(at 165.1 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" ""
+			(at 165.1 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
+			(at 165.1 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 165.1 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Alpha"
 			(at 165.1 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6771,7 +8029,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Jack_6.3"
+		(property "Value" "NMJ6HCD2"
 			(at 189.23 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6806,6 +8064,7 @@
 		)
 		(property "Description" ""
 			(at 182.88 60.96 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6825,7 +8084,7 @@
 				)
 			)
 		)
-		(property "Name" "Гнездо Jack 6,3 мм NMJ6HCD2, TRS"
+		(property "Name" "Гнездо Jack 6,3 мм TRS NMJ6HCD2"
 			(at 182.88 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -6836,7 +8095,106 @@
 				)
 			)
 		)
-		(property "IPN" "X_THT_NMJ6HCD2"
+		(property "IPN" ""
+			(at 182.88 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 182.88 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 182.88 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 182.88 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 182.88 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" ""
+			(at 182.88 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" ""
+			(at 182.88 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
+			(at 182.88 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "NMJ6HCD2"
+			(at 182.88 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Neutrik"
 			(at 182.88 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -6929,17 +8287,7 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 129.54 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" "VD_THT_DO-35_1N34"
+		(property "Description" "Любой выводной германиевый маломощный диод (макс. размер DO-41)"
 			(at 129.54 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6950,7 +8298,7 @@
 				)
 			)
 		)
-		(property "Name" "Диод германиевый 1N34"
+		(property "IPN" ""
 			(at 129.54 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6961,7 +8309,7 @@
 				)
 			)
 		)
-		(property "Note" "Любой выводной германиевый маломощный диод (макс. размер DO-41)"
+		(property "Name" "Диод германиевый"
 			(at 129.54 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6974,6 +8322,83 @@
 		)
 		(property "Alt1_IPN" ""
 			(at 129.54 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "DO-35"
+			(at 129.54 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 129.54 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 129.54 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 129.54 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" ""
+			(at 129.54 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "Ge"
+			(at 129.54 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
+			(at 129.54 71.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7054,17 +8479,7 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 138.43 71.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" "VD_THT_DO-35_1N34"
+		(property "Description" "Любой выводной германиевый маломощный диод (макс. размер DO-41)"
 			(at 138.43 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7075,7 +8490,7 @@
 				)
 			)
 		)
-		(property "Name" "Диод германиевый 1N34"
+		(property "IPN" ""
 			(at 138.43 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7086,7 +8501,7 @@
 				)
 			)
 		)
-		(property "Note" "Любой выводной германиевый маломощный диод (макс. размер DO-41)"
+		(property "Name" "Диод германиевый"
 			(at 138.43 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7099,6 +8514,83 @@
 		)
 		(property "Alt1_IPN" ""
 			(at 138.43 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "DO-35"
+			(at 138.43 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 138.43 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 138.43 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 138.43 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" ""
+			(at 138.43 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "Ge"
+			(at 138.43 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
+			(at 138.43 71.12 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7180,6 +8672,7 @@
 		)
 		(property "Description" ""
 			(at 148.59 71.12 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7188,7 +8681,7 @@
 				)
 			)
 		)
-		(property "IPN" "C_THT_RECT-L7-W2.5-H6.5_1n"
+		(property "IPN" ""
 			(at 148.59 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7221,7 +8714,84 @@
 				)
 			)
 		)
-		(property "Name" "Конденсатор THT MKT 1 нФ ±20%, 63 В, ДхШхВ 7х2,5х6,5 мм, шаг выв. 5 мм"
+		(property "Name" "Конденсатор THT металлоплёночный"
+			(at 148.59 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "C-THT-RECT-L7-W2.5-H6.5"
+			(at 148.59 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 148.59 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 148.59 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "63V"
+			(at 148.59 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" "5"
+			(at 148.59 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "MKT"
+			(at 148.59 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
 			(at 148.59 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7304,6 +8874,7 @@
 		)
 		(property "Description" ""
 			(at 68.58 99.06 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7381,6 +8952,7 @@
 		)
 		(property "Description" ""
 			(at 129.54 74.93 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7458,6 +9030,7 @@
 		)
 		(property "Description" ""
 			(at 138.43 88.9 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7535,6 +9108,7 @@
 		)
 		(property "Description" ""
 			(at 148.59 74.93 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7612,6 +9186,7 @@
 		)
 		(property "Description" ""
 			(at 165.1 74.93 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7689,6 +9264,7 @@
 		)
 		(property "Description" ""
 			(at 80.01 57.15 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7697,7 +9273,7 @@
 				)
 			)
 		)
-		(property "IPN" "R_THT_DIN0207_1M"
+		(property "IPN" ""
 			(at 80.01 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7708,7 +9284,84 @@
 				)
 			)
 		)
-		(property "Name" "Резистор THT металлоплёночный DIN0207 1 МОм ±5%, 0,25 Вт"
+		(property "Name" "Резистор THT металлоплёночный "
+			(at 80.01 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "DIN0207"
+			(at 80.01 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.125W"
+			(at 80.01 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 80.01 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 80.01 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" ""
+			(at 80.01 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" ""
+			(at 80.01 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
 			(at 80.01 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -7791,6 +9444,7 @@
 		)
 		(property "Description" ""
 			(at 180.34 73.66 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7833,7 +9487,7 @@
 				)
 			)
 		)
-		(property "Value" "DC_Jack_PCB"
+		(property "Value" "KLS1-DC-005A-2.0"
 			(at 35.0774 133.7564 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7865,8 +9519,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2,0х5,5 мм, пайка на плату"
 			(at 43.18 137.16 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7886,7 +9541,7 @@
 				)
 			)
 		)
-		(property "Name" "Гнездо DS-210B, 2,1х5,5 мм, пайка на плату"
+		(property "Name" "Гнездо питания KLS1-DC-005A-2.0"
 			(at 43.18 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -7897,7 +9552,106 @@
 				)
 			)
 		)
-		(property "IPN" "X_THT_DS-210B-2.1x5.5"
+		(property "IPN" ""
+			(at 43.18 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "KLS1-DC-005A-2.0"
+			(at 43.18 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 43.18 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 43.18 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 43.18 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" ""
+			(at 43.18 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" ""
+			(at 43.18 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
+			(at 43.18 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KLS1-DC-005A-2.0"
+			(at 43.18 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KLS"
 			(at 43.18 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -7930,10 +9684,6 @@
 						(name "SW-PAN")
 						(dnp yes)
 					)
-					(variant
-						(name "SYM-PAN")
-						(dnp yes)
-					)
 				)
 			)
 		)
@@ -7960,7 +9710,7 @@
 				)
 			)
 		)
-		(property "Value" "Battery_Conn"
+		(property "Value" ""
 			(at 35.56 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7994,6 +9744,7 @@
 		)
 		(property "Description" ""
 			(at 43.18 171.45 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8013,7 +9764,7 @@
 				)
 			)
 		)
-		(property "Name" "Разъём для батареи типа \"Крона\" боковой "
+		(property "Name" "Разъём для батареи типа \"Крона\" боковой"
 			(at 43.18 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -8024,7 +9775,84 @@
 				)
 			)
 		)
-		(property "IPN" "X_9V-Bat-Snap"
+		(property "IPN" ""
+			(at 43.18 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 43.18 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 43.18 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 43.18 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 43.18 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" ""
+			(at 43.18 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" ""
+			(at 43.18 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
 			(at 43.18 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -8062,7 +9890,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061a5a6f1")
 		(property "Reference" "S1"
-			(at 173.99 57.785 0)
+			(at 173.99 56.896 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8071,8 +9899,8 @@
 				)
 			)
 		)
-		(property "Value" "3PDT"
-			(at 173.99 60.0964 0)
+		(property "Value" "SF17010F-0302"
+			(at 176.022 59.436 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8103,8 +9931,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Классический под пайку провода"
 			(at 173.99 68.58 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8135,7 +9964,7 @@
 				)
 			)
 		)
-		(property "IPN" "S_THT_SF17010F-0302_3PDT"
+		(property "IPN" ""
 			(at 173.99 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8147,6 +9976,105 @@
 			)
 		)
 		(property "Name" "Переключатель ножной 3PDT SF17010F-0302"
+			(at 173.99 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "SF17010F-0302"
+			(at 173.99 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 173.99 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 173.99 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 173.99 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" ""
+			(at 173.99 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" ""
+			(at 173.99 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
+			(at 173.99 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 173.99 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Alpha"
 			(at 173.99 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8215,7 +10143,7 @@
 				)
 			)
 		)
-		(property "Value" "3PDT"
+		(property "Value" "SF17010F-0302"
 			(at 111.76 108.3564 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8247,8 +10175,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Классический под пайку провода"
 			(at 111.76 116.84 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8279,7 +10208,7 @@
 				)
 			)
 		)
-		(property "IPN" "S_THT_SF17010F-0302_3PDT"
+		(property "IPN" ""
 			(at 111.76 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -8291,6 +10220,105 @@
 			)
 		)
 		(property "Name" "Переключатель ножной 3PDT SF17010F-0302"
+			(at 111.76 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "SF17010F-0302"
+			(at 111.76 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 111.76 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 111.76 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 111.76 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" ""
+			(at 111.76 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" ""
+			(at 111.76 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
+			(at 111.76 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 111.76 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Alpha"
 			(at 111.76 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -8350,7 +10378,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061a5a911")
 		(property "Reference" "S1"
-			(at 55.88 52.07 0)
+			(at 54.102 52.324 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8359,8 +10387,8 @@
 				)
 			)
 		)
-		(property "Value" "3PDT"
-			(at 55.88 54.61 0)
+		(property "Value" "SF17010F-0302"
+			(at 53.594 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8391,8 +10419,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Классический под пайку провода"
 			(at 53.34 62.23 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8423,7 +10452,7 @@
 				)
 			)
 		)
-		(property "IPN" "S_THT_SF17010F-0302_3PDT"
+		(property "IPN" ""
 			(at 53.34 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -8435,6 +10464,105 @@
 			)
 		)
 		(property "Name" "Переключатель ножной 3PDT SF17010F-0302"
+			(at 53.34 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "SF17010F-0302"
+			(at 53.34 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 53.34 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 53.34 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 53.34 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" ""
+			(at 53.34 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" ""
+			(at 53.34 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
+			(at 53.34 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 53.34 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Alpha"
 			(at 53.34 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -8536,6 +10664,7 @@
 		)
 		(property "Description" ""
 			(at 69.85 139.7 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8544,7 +10673,7 @@
 				)
 			)
 		)
-		(property "IPN" "R_THT_DIN0207_10R"
+		(property "IPN" ""
 			(at 69.85 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8555,7 +10684,7 @@
 				)
 			)
 		)
-		(property "Name" "Резистор THT металлоплёночный DIN0207 10 Ом ±5%, 0,25 Вт"
+		(property "Name" "Резистор THT металлоплёночный "
 			(at 69.85 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8566,8 +10695,74 @@
 				)
 			)
 		)
-		(property "Note" ""
-			(at 69.85 139.7 0)
+		(property "Package" "DIN0207"
+			(at 69.85 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.125W"
+			(at 69.85 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 69.85 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 69.85 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" ""
+			(at 69.85 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" ""
+			(at 69.85 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
+			(at 69.85 139.7 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8647,17 +10842,7 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 76.2 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" "VD_THT_DO-41_1N4001"
+		(property "Description" "Любой диод DO-41 средней мощности, V > 25 В"
 			(at 76.2 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -8668,7 +10853,7 @@
 				)
 			)
 		)
-		(property "Name" "Диод 1N4001 (DO-41)"
+		(property "IPN" ""
 			(at 76.2 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -8679,7 +10864,7 @@
 				)
 			)
 		)
-		(property "Note" "Любой диод DO-41 средней мощности, V > 25 В"
+		(property "Name" "Диод кремниевый"
 			(at 76.2 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -8692,6 +10877,83 @@
 		)
 		(property "Alt1_IPN" ""
 			(at 76.2 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "DO-41"
+			(at 76.2 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 76.2 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 76.2 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 76.2 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" ""
+			(at 76.2 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "Si"
+			(at 76.2 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
+			(at 76.2 144.78 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8773,6 +11035,7 @@
 		)
 		(property "Description" ""
 			(at 82.55 144.78 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8781,7 +11044,7 @@
 				)
 			)
 		)
-		(property "IPN" "C_THT_RAD-D5-H11_100u"
+		(property "IPN" ""
 			(at 82.55 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -8814,7 +11077,84 @@
 				)
 			)
 		)
-		(property "Name" "Конденсатор THT электролитич. алюм. радиальный 100 мкФ ±20%, 16 В, 85 °C, ØхВ 5х11 мм, шаг выв. 2 мм"
+		(property "Name" "Конденсатор THT электролитический алюминиевый"
+			(at 82.55 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "C-THT-RADIAL-D5-H11"
+			(at 82.55 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 82.55 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 82.55 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 82.55 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" "2.5"
+			(at 82.55 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "AL-EL"
+			(at 82.55 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" "85 °C"
 			(at 82.55 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -8897,6 +11237,7 @@
 		)
 		(property "Description" ""
 			(at 116.84 151.13 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8905,7 +11246,7 @@
 				)
 			)
 		)
-		(property "IPN" "C_THT_RECT-L5-W2.5-H5_100n"
+		(property "IPN" ""
 			(at 116.84 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -8916,7 +11257,84 @@
 				)
 			)
 		)
-		(property "Name" "Конденсатор THT X5R дисковый 100 нФ ±20%, 50 В, ØхШ 5х2,5 мм, шаг выв. 5 мм"
+		(property "Name" "Конденсатор THT керамический"
+			(at 116.84 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "C-THT-RECT-L5-W2.5-H5"
+			(at 116.84 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 116.84 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 116.84 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 116.84 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" "5"
+			(at 116.84 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "X5R"
+			(at 116.84 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
 			(at 116.84 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -8999,6 +11417,7 @@
 		)
 		(property "Description" ""
 			(at 95.25 144.78 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9007,7 +11426,7 @@
 				)
 			)
 		)
-		(property "IPN" "R_THT_DIN0207_1M"
+		(property "IPN" ""
 			(at 95.25 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -9018,7 +11437,84 @@
 				)
 			)
 		)
-		(property "Name" "Резистор THT металлоплёночный DIN0207 1 МОм ±5%, 0,25 Вт"
+		(property "Name" "Резистор THT металлоплёночный "
+			(at 95.25 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "DIN0207"
+			(at 95.25 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.125W"
+			(at 95.25 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 95.25 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 95.25 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" ""
+			(at 95.25 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" ""
+			(at 95.25 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
 			(at 95.25 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -9101,6 +11597,7 @@
 		)
 		(property "Description" ""
 			(at 95.25 154.94 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9109,7 +11606,7 @@
 				)
 			)
 		)
-		(property "IPN" "R_THT_DIN0207_1M"
+		(property "IPN" ""
 			(at 95.25 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -9120,7 +11617,84 @@
 				)
 			)
 		)
-		(property "Name" "Резистор THT металлоплёночный DIN0207 1 МОм ±5%, 0,25 Вт"
+		(property "Name" "Резистор THT металлоплёночный "
+			(at 95.25 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "DIN0207"
+			(at 95.25 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.125W"
+			(at 95.25 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 95.25 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 95.25 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" ""
+			(at 95.25 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" ""
+			(at 95.25 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
 			(at 95.25 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -9203,6 +11777,7 @@
 		)
 		(property "Description" ""
 			(at 105.41 154.94 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9211,7 +11786,7 @@
 				)
 			)
 		)
-		(property "IPN" "C_THT_RAD-D5-H11_1u"
+		(property "IPN" ""
 			(at 105.41 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -9244,7 +11819,84 @@
 				)
 			)
 		)
-		(property "Name" "Конденсатор THT электролитич. алюм. радиальный 1 мкФ ±20%, 50 В, 85 °C, ØхВ 5х11 мм, шаг выв. 2 мм"
+		(property "Name" "Конденсатор THT электролитический танталовый"
+			(at 105.41 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "C-THT-RADIAL-D5-H11"
+			(at 105.41 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 105.41 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 105.41 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 105.41 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" "2.5"
+			(at 105.41 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "TA-EL"
+			(at 105.41 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
 			(at 105.41 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -9326,6 +11978,7 @@
 		)
 		(property "Description" ""
 			(at 105.41 147.32 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9368,7 +12021,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3mm red"
+		(property "Value" "RED"
 			(at 118.872 127.9652 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9403,6 +12056,7 @@
 		)
 		(property "Description" ""
 			(at 116.84 127 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9411,7 +12065,7 @@
 				)
 			)
 		)
-		(property "Name" "Светодиод выводной красный, Ø 3 мм"
+		(property "Name" "Светодиод THT, Ø 3 мм, красный"
 			(at 116.84 127 0)
 			(hide yes)
 			(show_name no)
@@ -9422,8 +12076,85 @@
 				)
 			)
 		)
-		(property "IPN" "LED_THT_D3_Red"
+		(property "IPN" ""
 			(at 116.84 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "LED-THT-D3"
+			(at 116.84 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 116.84 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 116.84 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 116.84 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" ""
+			(at 116.84 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" ""
+			(at 116.84 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
+			(at 116.84 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9505,6 +12236,7 @@
 		)
 		(property "Description" ""
 			(at 116.84 134.62 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9513,7 +12245,7 @@
 				)
 			)
 		)
-		(property "IPN" "R_THT_DIN0207_4k7"
+		(property "IPN" ""
 			(at 116.84 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -9524,7 +12256,84 @@
 				)
 			)
 		)
-		(property "Name" "Резистор THT металлоплёночный DIN0207 4,7 кОм ±5%, 0,25 Вт"
+		(property "Name" "Резистор THT металлоплёночный "
+			(at 116.84 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "DIN0207"
+			(at 116.84 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.125W"
+			(at 116.84 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 116.84 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 116.84 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" ""
+			(at 116.84 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" ""
+			(at 116.84 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
 			(at 116.84 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -9607,6 +12416,7 @@
 		)
 		(property "Description" ""
 			(at 76.2 148.59 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9684,6 +12494,7 @@
 		)
 		(property "Description" ""
 			(at 82.55 148.59 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9761,6 +12572,7 @@
 		)
 		(property "Description" ""
 			(at 95.25 158.75 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9838,6 +12650,7 @@
 		)
 		(property "Description" ""
 			(at 105.41 158.75 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9914,6 +12727,7 @@
 		)
 		(property "Description" ""
 			(at 82.55 134.62 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9991,6 +12805,7 @@
 		)
 		(property "Description" ""
 			(at 116.84 158.75 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10068,6 +12883,7 @@
 		)
 		(property "Description" ""
 			(at 104.14 115.57 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10110,7 +12926,7 @@
 				)
 			)
 		)
-		(property "Value" "DC_Jack_Wire"
+		(property "Value" "KLS1-DC-022B-2.0"
 			(at 35.0774 151.5364 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10142,17 +12958,7 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 43.18 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Name" "Гнездо питания 2,1х5,5 мм, на панель, крепёжное отверстие Ø 11 мм, гайка снизу, под пайку провода"
+		(property "Description" "2,0х5,5 мм, на панель, крепёжное отверстие Ø 11 мм, гайка снизу, под пайку провода"
 			(at 43.18 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -10163,7 +12969,117 @@
 				)
 			)
 		)
-		(property "IPN" "X_THT_XS-2.1x5.5-Panel-D11"
+		(property "Name" "Гнездо питания KLS1-DC-022B-2.0"
+			(at 43.18 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" ""
+			(at 43.18 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "KLS1-DC-022B-2.0"
+			(at 43.18 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 43.18 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 43.18 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 43.18 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" ""
+			(at 43.18 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" ""
+			(at 43.18 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
+			(at 43.18 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "KLS1-DC-022B-2.0"
+			(at 43.18 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KLS"
 			(at 43.18 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -10256,17 +13172,7 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 138.43 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" "VD_THT_DO-35_1N34"
+		(property "Description" "Любой выводной германиевый маломощный диод (макс. размер DO-41)"
 			(at 138.43 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -10277,7 +13183,7 @@
 				)
 			)
 		)
-		(property "Name" "Диод германиевый 1N34"
+		(property "IPN" ""
 			(at 138.43 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -10288,7 +13194,7 @@
 				)
 			)
 		)
-		(property "Note" "Любой выводной германиевый маломощный диод (макс. размер DO-41)"
+		(property "Name" "Диод германиевый"
 			(at 138.43 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -10301,6 +13207,83 @@
 		)
 		(property "Alt1_IPN" ""
 			(at 138.43 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "DO-35"
+			(at 138.43 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 138.43 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 138.43 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 138.43 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" ""
+			(at 138.43 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" "Ge"
+			(at 138.43 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
+			(at 138.43 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10327,10 +13310,6 @@
 					)
 					(variant
 						(name "SIM-PCB")
-						(dnp yes)
-					)
-					(variant
-						(name "SYM-PAN")
 						(dnp yes)
 					)
 				)
@@ -10394,6 +13373,7 @@
 		)
 		(property "Description" ""
 			(at 129.54 82.55 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10402,7 +13382,7 @@
 				)
 			)
 		)
-		(property "IPN" "R_SMD_0805_0R"
+		(property "IPN" ""
 			(at 129.54 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -10413,7 +13393,84 @@
 				)
 			)
 		)
-		(property "Name" "Резистор SMD 0805 0 Ом"
+		(property "Name" "Резистор SMD металлоплёночный "
+			(at 129.54 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "SMD0805"
+			(at 129.54 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" "0.125W"
+			(at 129.54 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 129.54 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 129.54 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" ""
+			(at 129.54 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" ""
+			(at 129.54 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
 			(at 129.54 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -10469,7 +13526,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CON"
+		(property "Value" ""
 			(at 170.18 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10504,6 +13561,95 @@
 		)
 		(property "Description" ""
 			(at 165.1 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "IPN" ""
+			(at 165.1 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" ""
+			(at 165.1 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 165.1 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 165.1 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 165.1 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" ""
+			(at 165.1 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" ""
+			(at 165.1 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
+			(at 165.1 73.66 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10546,7 +13692,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "MTS-101"
 			(at 113.03 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10579,8 +13725,9 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ON-OFF, SPST, установочное отверстие 5 мм, 2 контакта"
 			(at 124.46 82.55 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10589,7 +13736,7 @@
 				)
 			)
 		)
-		(property "Name" "Микротумблер SMTS-101, ON-OFF, SPST, установочное отверстие 5 мм, 2 контакта"
+		(property "Name" "Миниатюрный переключатель MTS-101"
 			(at 124.46 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -10611,8 +13758,85 @@
 				)
 			)
 		)
-		(property "IPN" "S_THT_SMTS-101"
+		(property "IPN" ""
 			(at 124.46 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "MTS-101"
+			(at 124.46 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Power" ""
+			(at 124.46 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Tolerance" ""
+			(at 124.46 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 124.46 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PinPitch" ""
+			(at 124.46 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Material" ""
+			(at 124.46 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature" ""
+			(at 124.46 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10639,10 +13863,6 @@
 					)
 					(variant
 						(name "SIM-PCB")
-						(dnp yes)
-					)
-					(variant
-						(name "SYM-PAN")
 						(dnp yes)
 					)
 				)
