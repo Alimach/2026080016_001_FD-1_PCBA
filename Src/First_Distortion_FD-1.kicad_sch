@@ -3176,7 +3176,7 @@
 	)
 	(text "\"Battery\""
 		(exclude_from_sim no)
-		(at 27.94 165.1 0)
+		(at 27.178 166.624 0)
 		(effects
 			(font
 				(size 1.4986 1.4986)
@@ -3242,7 +3242,7 @@
 	)
 	(text "\"DISTORTION\""
 		(exclude_from_sim no)
-		(at 52.07 90.17 0)
+		(at 74.676 93.726 0)
 		(effects
 			(font
 				(size 1.4986 1.4986)
@@ -3297,7 +3297,7 @@
 	)
 	(text "\"GND WIRE\""
 		(exclude_from_sim no)
-		(at 166.37 77.47 0)
+		(at 170.18 77.724 0)
 		(effects
 			(font
 				(size 1.4986 1.4986)
@@ -3319,7 +3319,7 @@
 	)
 	(text "\"CHECK\""
 		(exclude_from_sim no)
-		(at 119.38 123.19 0)
+		(at 103.632 128.016 0)
 		(effects
 			(font
 				(size 1.4986 1.4986)
@@ -3330,7 +3330,7 @@
 	)
 	(text "\"OUTPUT\""
 		(exclude_from_sim no)
-		(at 152.4 60.96 0)
+		(at 153.162 76.2 0)
 		(effects
 			(font
 				(size 1.4986 1.4986)
@@ -3374,7 +3374,7 @@
 	)
 	(text "\"SIM/ASIM\"\n\n"
 		(exclude_from_sim no)
-		(at 111.76 78.74 0)
+		(at 110.744 92.71 0)
 		(effects
 			(font
 				(size 1.4986 1.4986)
@@ -4785,7 +4785,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Любой аналог: КР140УД7, К140УД7, MAA741 и т.д. Можно в металлическом круглом корпусе"
 			(at 82.55 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4796,18 +4796,7 @@
 				)
 			)
 		)
-		(property "Name" "Микросхема"
-			(at 82.55 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" ""
+		(property "Name" "Микросхема uA741"
 			(at 82.55 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4885,6 +4874,61 @@
 			)
 		)
 		(property "Temperature" ""
+			(at 82.55 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "UA741CP"
+			(at 82.55 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 82.55 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Chipdip_link" "https://www.chipdip.ru/product/ua741cp-universalnyy-odnokanalnyy-texas-instruments-9000375054"
+			(at 82.55 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_61&product_id=698"
+			(at 82.55 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" ""
 			(at 82.55 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4980,7 +5024,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Любой аналог: КР140УД7, К140УД7, MAA741 и т.д. Можно в металлическом круглом корпусе"
 			(at 123.19 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -4991,18 +5035,7 @@
 				)
 			)
 		)
-		(property "Name" "Микросхема"
-			(at 123.19 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" ""
+		(property "Name" "Микросхема uA741"
 			(at 123.19 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -5080,6 +5113,61 @@
 			)
 		)
 		(property "Temperature" ""
+			(at 123.19 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "UA741CP"
+			(at 123.19 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TI"
+			(at 123.19 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Chipdip_link" "https://www.chipdip.ru/product/ua741cp-universalnyy-odnokanalnyy-texas-instruments-9000375054"
+			(at 123.19 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_61&product_id=698"
+			(at 123.19 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" ""
 			(at 123.19 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -5262,29 +5350,7 @@
 				)
 			)
 		)
-		(property "Alt1_IPN" ""
-			(at 41.91 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Name" "Гнездо Jack 6,3 мм TRS NMJ6HCD2"
-			(at 41.91 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" ""
 			(at 41.91 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5394,6 +5460,39 @@
 				)
 			)
 		)
+		(property "Chipdip_link" ""
+			(at 41.91 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_65&product_id=228"
+			(at 41.91 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_65&product_id=168"
+			(at 41.91 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2b0fc8c9-bf7d-421c-bb08-b6958857846e")
 		)
@@ -5475,17 +5574,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 74.93 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" ""
 			(at 74.93 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5584,6 +5672,39 @@
 				)
 			)
 		)
+		(property "Chipdip_link" "https://www.chipdip.ru/product/mfr-25ftf52-10k-0.25vt-10kom-1-rezistor-resurs-9002018555"
+			(at 74.93 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" ""
+			(at 74.93 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" ""
+			(at 74.93 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "cfaa9982-b60e-42eb-ab68-5a008a5bb881")
 		)
@@ -5653,17 +5774,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 67.31 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" ""
 			(at 67.31 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5784,6 +5894,39 @@
 				)
 			)
 		)
+		(property "Chipdip_link" "https://www.chipdip.ru/product/b32529c0103j000-tdk-8008394032"
+			(at 67.31 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_32&product_id=560"
+			(at 67.31 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_32&product_id=912"
+			(at 67.31 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ebf7ffc8-5025-41d8-8507-c0ce48ebca15")
 		)
@@ -5855,17 +5998,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" ""
 			(at 63.5 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5986,6 +6118,39 @@
 				)
 			)
 		)
+		(property "Chipdip_link" "https://www.chipdip.ru/product/b32529c0102j000-0.001-mkf-40vac-63vdc-shag-5mm-5-tdk-epcos-9000635053"
+			(at 63.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_32&product_id=560"
+			(at 63.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_32&product_id=912"
+			(at 63.5 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5a405f6c-10ce-4e21-a877-3d951b1600c6")
 		)
@@ -6057,17 +6222,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 58.42 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" ""
 			(at 58.42 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6156,6 +6310,39 @@
 			)
 		)
 		(property "Temperature" ""
+			(at 58.42 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Chipdip_link" "https://www.chipdip.ru/product/mfr-25ftf52-1m-0.25vt-1mom-1-rezistor-resurs-9002018565"
+			(at 58.42 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_30&product_id=143"
+			(at 58.42 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" ""
 			(at 58.42 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6401,17 +6588,6 @@
 				)
 			)
 		)
-		(property "IPN" ""
-			(at 76.2 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "MPN" "B32529C0473"
 			(at 76.2 76.2 0)
 			(hide yes)
@@ -6522,6 +6698,39 @@
 				)
 			)
 		)
+		(property "Chipdip_link" "https://www.chipdip.ru/product/mkt-film-capacitor-47-nf-10-63-v-dc-pet-5-mm-tdk-8026536943"
+			(at 76.2 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_32&product_id=560"
+			(at 76.2 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_32&product_id=912"
+			(at 76.2 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3680a9fd-8b7d-41d1-9f15-a082a85efaba")
 		)
@@ -6591,17 +6800,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" ""
 			(at 95.25 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -6700,6 +6898,39 @@
 				)
 			)
 		)
+		(property "Chipdip_link" "https://www.chipdip.ru/product/mfr-25ftf52-1m-0.25vt-1mom-1-rezistor-resurs-9002018565"
+			(at 95.25 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_30&product_id=143"
+			(at 95.25 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" ""
+			(at 95.25 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f21521e4-d097-425c-8dcb-12b459cf20e7")
 		)
@@ -6769,17 +7000,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" ""
 			(at 95.25 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -6900,6 +7120,39 @@
 				)
 			)
 		)
+		(property "Chipdip_link" "https://www.chipdip.ru/product/k10-17b-10pf-npo-5-0805-jym1h100jbn010000b-jb-capacitors-9001397195"
+			(at 95.25 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_32&product_id=937"
+			(at 95.25 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" ""
+			(at 95.25 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e47b1328-a0a6-4e57-a71c-fa482e17f51c")
 		)
@@ -6971,17 +7224,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" ""
 			(at 68.58 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7070,6 +7312,39 @@
 			)
 		)
 		(property "Temperature" ""
+			(at 68.58 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Chipdip_link" "https://www.chipdip.ru/product/mf-25-s2-23-0.25vt-4.7-kom-1-rezistor-metalloplenochnyy-1849"
+			(at 68.58 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_30&product_id=143"
+			(at 68.58 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" ""
 			(at 68.58 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7240,39 +7515,6 @@
 				)
 			)
 		)
-		(property "Alt1_IPN" "RP_THT_RV16AF-20_C500k"
-			(at 68.58 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alt1_Name" "Потенциометр RV16AF-20 500 кОм, RevLog (C)"
-			(at 68.58 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" ""
-			(at 68.58 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Name" "Потенциометр RV16AF-10"
 			(at 68.58 92.71 0)
 			(hide yes)
@@ -7361,7 +7603,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RV16AF-10-15K-C500k"
 			(at 68.58 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7373,6 +7615,39 @@
 			)
 		)
 		(property "Manufacturer" "Alpha"
+			(at 68.58 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Chipdip_link" ""
+			(at 68.58 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_63&product_id=587"
+			(at 68.58 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_63&product_id=414"
 			(at 68.58 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -7455,17 +7730,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" ""
 			(at 115.57 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7586,6 +7850,39 @@
 				)
 			)
 		)
+		(property "Chipdip_link" "https://www.chipdip.ru/product/1mkf-50v-105-c-20-5x11mm-p-2mm-jb-capacitors-9000565817"
+			(at 115.57 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_32&product_id=330"
+			(at 115.57 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" ""
+			(at 115.57 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "574f3f04-e180-44f5-87f9-919500466567")
 		)
@@ -7655,17 +7952,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" ""
 			(at 123.19 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -7764,6 +8050,39 @@
 				)
 			)
 		)
+		(property "Chipdip_link" "https://www.chipdip.ru/product/mfr-25ftf52-10k-0.25vt-10kom-1-rezistor-resurs-9002018555"
+			(at 123.19 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" ""
+			(at 123.19 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" ""
+			(at 123.19 62.23 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "acbf4e48-4cfe-4ecd-bfce-3b4ec7592a81")
 		)
@@ -7836,39 +8155,6 @@
 			)
 		)
 		(property "Description" "Логарифмический (A)"
-			(at 165.1 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alt1_IPN" "RP_THT_RV16AF-20_A50k"
-			(at 165.1 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alt1_Name" "Потенциометр RV16AF-20 50 кОм, Log (A)"
-			(at 165.1 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" ""
 			(at 165.1 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7967,7 +8253,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RV16AF-10-15K-A50k"
 			(at 165.1 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7979,6 +8265,39 @@
 			)
 		)
 		(property "Manufacturer" "Alpha"
+			(at 165.1 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Chipdip_link" ""
+			(at 165.1 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_63&product_id=587"
+			(at 165.1 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_63&product_id=170"
 			(at 165.1 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8073,29 +8392,7 @@
 				)
 			)
 		)
-		(property "Alt1_IPN" ""
-			(at 182.88 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Name" "Гнездо Jack 6,3 мм TRS NMJ6HCD2"
-			(at 182.88 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" ""
 			(at 182.88 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -8205,6 +8502,39 @@
 				)
 			)
 		)
+		(property "Chipdip_link" ""
+			(at 182.88 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_65&product_id=228"
+			(at 182.88 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_65&product_id=168"
+			(at 182.88 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "0ef482c8-1401-477d-837a-51c9b9641a09")
 		)
@@ -8254,8 +8584,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N34"
-			(at 131.572 72.263 90)
+		(property "Value" "1N34A"
+			(at 130.556 73.914 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8298,29 +8628,7 @@
 				)
 			)
 		)
-		(property "IPN" ""
-			(at 129.54 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Name" "Диод германиевый"
-			(at 129.54 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alt1_IPN" ""
 			(at 129.54 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -8398,6 +8706,50 @@
 			)
 		)
 		(property "Temperature" ""
+			(at 129.54 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Chipdip_link" "https://www.chipdip.ru/product/d9b-diod-vypryamitelnyy-maloy-moschnosti-germanievyy-48370"
+			(at 129.54 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" ""
+			(at 129.54 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_64&product_id=617"
+			(at 129.54 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 129.54 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -8446,8 +8798,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N34"
-			(at 140.97 72.39 90)
+		(property "Value" "1N34A"
+			(at 139.954 73.914 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8490,29 +8842,7 @@
 				)
 			)
 		)
-		(property "IPN" ""
-			(at 138.43 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Name" "Диод германиевый"
-			(at 138.43 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alt1_IPN" ""
 			(at 138.43 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -8590,6 +8920,50 @@
 			)
 		)
 		(property "Temperature" ""
+			(at 138.43 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Chipdip_link" "https://www.chipdip.ru/product/d9b-diod-vypryamitelnyy-maloy-moschnosti-germanievyy-48370"
+			(at 138.43 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" ""
+			(at 138.43 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_64&product_id=617"
+			(at 138.43 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
 			(at 138.43 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -8671,17 +9045,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" ""
 			(at 148.59 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -8792,6 +9155,39 @@
 			)
 		)
 		(property "Temperature" ""
+			(at 148.59 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Chipdip_link" "https://www.chipdip.ru/product/b32529c0102j000-0.001-mkf-40vac-63vdc-shag-5mm-5-tdk-epcos-9000635053"
+			(at 148.59 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_32&product_id=560"
+			(at 148.59 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_32&product_id=912"
 			(at 148.59 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -9273,17 +9669,6 @@
 				)
 			)
 		)
-		(property "IPN" ""
-			(at 80.01 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Name" "Резистор THT металлоплёночный "
 			(at 80.01 57.15 0)
 			(hide yes)
@@ -9362,6 +9747,39 @@
 			)
 		)
 		(property "Temperature" ""
+			(at 80.01 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Chipdip_link" "https://www.chipdip.ru/product/mfr-25ftf52-1m-0.25vt-1mom-1-rezistor-resurs-9002018565"
+			(at 80.01 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_30&product_id=143"
+			(at 80.01 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" ""
 			(at 80.01 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -9530,29 +9948,7 @@
 				)
 			)
 		)
-		(property "Alt1_IPN" ""
-			(at 43.18 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Name" "Гнездо питания KLS1-DC-005A-2.0"
-			(at 43.18 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" ""
 			(at 43.18 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -9662,6 +10058,39 @@
 				)
 			)
 		)
+		(property "Chipdip_link" "https://www.chipdip.ru/product/kls1-dc-005a-2.0-gnezdo-pitaniya-na-kabel-2-1x5.5x9mm-9000528545"
+			(at 43.18 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" ""
+			(at 43.18 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" ""
+			(at 43.18 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "5473595b-cc02-481b-a815-cadba01bd527")
 		)
@@ -9679,10 +10108,12 @@
 					(variant
 						(name "SIM-PAN")
 						(dnp yes)
+						(in_bom no)
 					)
 					(variant
 						(name "SW-PAN")
 						(dnp yes)
+						(in_bom no)
 					)
 				)
 			)
@@ -9701,7 +10132,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061a5a4af")
 		(property "Reference" "X3"
-			(at 35.56 166.37 0)
+			(at 33.02 168.402 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9753,29 +10184,7 @@
 				)
 			)
 		)
-		(property "Alt1_IPN" ""
-			(at 43.18 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Name" "Разъём для батареи типа \"Крона\" боковой"
-			(at 43.18 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" ""
 			(at 43.18 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -9863,6 +10272,39 @@
 				)
 			)
 		)
+		(property "Chipdip_link" ""
+			(at 43.18 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" ""
+			(at 43.18 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_81&product_id=295"
+			(at 43.18 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0f5ad135-1c79-41a6-b1d5-af699ba6f925")
 		)
@@ -9931,40 +10373,7 @@
 				)
 			)
 		)
-		(property "Description" "Классический под пайку провода"
-			(at 173.99 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alt1_IPN" "S_THT_SF17020F-0302_3PDT"
-			(at 173.99 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alt1_Name" "Переключатель ножной 3PDT SF17020F-0302"
-			(at 173.99 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" ""
+		(property "Description" "Классический 3PDT под пайку провода"
 			(at 173.99 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10063,7 +10472,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "SF17010F-0302"
 			(at 173.99 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10075,6 +10484,39 @@
 			)
 		)
 		(property "Manufacturer" "Alpha"
+			(at 173.99 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Chipdip_link" ""
+			(at 173.99 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_60&product_id=148"
+			(at 173.99 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" ""
 			(at 173.99 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10175,40 +10617,7 @@
 				)
 			)
 		)
-		(property "Description" "Классический под пайку провода"
-			(at 111.76 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alt1_IPN" "S_THT_SF17020F-0302_3PDT"
-			(at 111.76 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alt1_Name" "Переключатель ножной 3PDT SF17020F-0302"
-			(at 111.76 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" ""
+		(property "Description" "Классический 3PDT под пайку провода"
 			(at 111.76 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -10307,7 +10716,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "SF17010F-0302"
 			(at 111.76 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -10319,6 +10728,39 @@
 			)
 		)
 		(property "Manufacturer" "Alpha"
+			(at 111.76 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Chipdip_link" ""
+			(at 111.76 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_60&product_id=148"
+			(at 111.76 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" ""
 			(at 111.76 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -10419,40 +10861,7 @@
 				)
 			)
 		)
-		(property "Description" "Классический под пайку провода"
-			(at 53.34 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alt1_IPN" "S_THT_SF17020F-0302_3PDT"
-			(at 53.34 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alt1_Name" "Переключатель ножной 3PDT SF17020F-0302"
-			(at 53.34 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" ""
+		(property "Description" "Классический 3PDT под пайку провода"
 			(at 53.34 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -10551,7 +10960,7 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "SF17010F-0302"
 			(at 53.34 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -10563,6 +10972,39 @@
 			)
 		)
 		(property "Manufacturer" "Alpha"
+			(at 53.34 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Chipdip_link" ""
+			(at 53.34 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_60&product_id=148"
+			(at 53.34 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" ""
 			(at 53.34 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -10662,18 +11104,7 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 69.85 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" ""
+		(property "Description" "Допускается углеродистый"
 			(at 69.85 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10772,6 +11203,39 @@
 				)
 			)
 		)
+		(property "Chipdip_link" "https://www.chipdip.ru/product/mfr-25ftf52-10r-0.25vt-10om-1-rezistor-resurs-9002018531"
+			(at 69.85 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" ""
+			(at 69.85 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" ""
+			(at 69.85 139.7 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "20132e47-57da-4e8b-bc04-c628b64e1a85")
 		)
@@ -10853,29 +11317,7 @@
 				)
 			)
 		)
-		(property "IPN" ""
-			(at 76.2 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Name" "Диод кремниевый"
-			(at 76.2 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alt1_IPN" ""
 			(at 76.2 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -10963,6 +11405,50 @@
 				)
 			)
 		)
+		(property "Chipdip_link" "https://www.chipdip.ru/product/1n4001-diod-vypryamitelnyy-1a-50v-do-41-dc-components-9000820620"
+			(at 76.2 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" ""
+			(at 76.2 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_64&product_id=889"
+			(at 76.2 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 76.2 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3bf33624-77c4-49dc-b3f5-9ef5bb0747a1")
 		)
@@ -11034,17 +11520,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" ""
 			(at 82.55 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -11165,6 +11640,39 @@
 				)
 			)
 		)
+		(property "Chipdip_link" "https://www.chipdip.ru/product/100mkf-16v-105-c-20-5x11mm-p-2mm-jb-capacitors-9000565888"
+			(at 82.55 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" ""
+			(at 82.55 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" ""
+			(at 82.55 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3fd1880b-bf0e-4e5d-9eda-120dd8af6da9")
 		)
@@ -11235,18 +11743,7 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 116.84 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" ""
+		(property "Description" "Керамический дисковый или многослойный, диэлектрик X5R, X7R, в крайнем случае Y5V"
 			(at 116.84 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -11323,7 +11820,7 @@
 				)
 			)
 		)
-		(property "Material" "X5R"
+		(property "Material" "X7R"
 			(at 116.84 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -11335,6 +11832,61 @@
 			)
 		)
 		(property "Temperature" ""
+			(at 116.84 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Chipdip_link" "https://www.chipdip.ru/product/k10-17b-1000pf-x7r-10-0805-jym1h102kbx010000b-jb-capacitors-9001397221"
+			(at 116.84 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_32&product_id=179"
+			(at 116.84 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" ""
+			(at 116.84 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "JYM1H102KBX"
+			(at 116.84 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JB"
 			(at 116.84 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -11426,17 +11978,6 @@
 				)
 			)
 		)
-		(property "IPN" ""
-			(at 95.25 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Name" "Резистор THT металлоплёночный "
 			(at 95.25 144.78 0)
 			(hide yes)
@@ -11515,6 +12056,39 @@
 			)
 		)
 		(property "Temperature" ""
+			(at 95.25 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Chipdip_link" "https://www.chipdip.ru/product/mfr-25ftf52-1m-0.25vt-1mom-1-rezistor-resurs-9002018565"
+			(at 95.25 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_30&product_id=143"
+			(at 95.25 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" ""
 			(at 95.25 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -11606,17 +12180,6 @@
 				)
 			)
 		)
-		(property "IPN" ""
-			(at 95.25 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Name" "Резистор THT металлоплёночный "
 			(at 95.25 154.94 0)
 			(hide yes)
@@ -11705,6 +12268,39 @@
 				)
 			)
 		)
+		(property "Chipdip_link" "https://www.chipdip.ru/product/mfr-25ftf52-1m-0.25vt-1mom-1-rezistor-resurs-9002018565"
+			(at 95.25 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_30&product_id=143"
+			(at 95.25 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" ""
+			(at 95.25 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "aafdf29b-f3e3-4259-b114-13dba294c735")
 		)
@@ -11775,7 +12371,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Танталовый, ниобиевый"
 			(at 105.41 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -11786,7 +12382,7 @@
 				)
 			)
 		)
-		(property "IPN" ""
+		(property "MPN" "TC-1/50"
 			(at 105.41 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -11797,18 +12393,7 @@
 				)
 			)
 		)
-		(property "MPN" "JRB1H010M02000500110"
-			(at 105.41 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "JB"
+		(property "Manufacturer" "SR Passives"
 			(at 105.41 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -11897,6 +12482,39 @@
 			)
 		)
 		(property "Temperature" ""
+			(at 105.41 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Chipdip_link" "https://www.chipdip.ru/product/tc-1-50-kondensator-tantalovyy-1mkf-50v-tht-20-sr-passives-8017379192"
+			(at 105.41 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" ""
+			(at 105.41 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" ""
 			(at 105.41 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -12054,7 +12672,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Любой выводной светодиод 3 мм"
 			(at 116.84 127 0)
 			(hide yes)
 			(show_name no)
@@ -12066,17 +12684,6 @@
 			)
 		)
 		(property "Name" "Светодиод THT, Ø 3 мм, красный"
-			(at 116.84 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" ""
 			(at 116.84 127 0)
 			(hide yes)
 			(show_name no)
@@ -12154,6 +12761,61 @@
 			)
 		)
 		(property "Temperature" ""
+			(at 116.84 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GNL-3012HD"
+			(at 116.84 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "G-NOR"
+			(at 116.84 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Chipdip_link" "https://www.chipdip.ru/product/gnl-3012hd-svetodiod-krasnyy-60-d-3mm-5-10mkd-700nm-g-nor-9000422968"
+			(at 116.84 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_77&product_id=398"
+			(at 116.84 127 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" ""
 			(at 116.84 127 90)
 			(hide yes)
 			(show_name no)
@@ -12245,17 +12907,6 @@
 				)
 			)
 		)
-		(property "IPN" ""
-			(at 116.84 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Name" "Резистор THT металлоплёночный "
 			(at 116.84 134.62 0)
 			(hide yes)
@@ -12334,6 +12985,39 @@
 			)
 		)
 		(property "Temperature" ""
+			(at 116.84 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Chipdip_link" "https://www.chipdip.ru/product/mf-25-s2-23-0.25vt-4.7-kom-1-rezistor-metalloplenochnyy-1849"
+			(at 116.84 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_30&product_id=143"
+			(at 116.84 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" ""
 			(at 116.84 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -12980,17 +13664,6 @@
 				)
 			)
 		)
-		(property "IPN" ""
-			(at 43.18 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Package" "KLS1-DC-022B-2.0"
 			(at 43.18 154.94 0)
 			(hide yes)
@@ -13090,6 +13763,39 @@
 				)
 			)
 		)
+		(property "Chipdip_link" ""
+			(at 43.18 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" ""
+			(at 43.18 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_81&product_id=420"
+			(at 43.18 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "20c5a91c-f4c1-4733-94f0-19f525801eb9")
 		)
@@ -13107,10 +13813,12 @@
 					(variant
 						(name "SIM-PCB")
 						(dnp yes)
+						(in_bom no)
 					)
 					(variant
 						(name "SW-PCB")
 						(dnp yes)
+						(in_bom no)
 					)
 				)
 			)
@@ -13139,7 +13847,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N34"
+		(property "Value" "1N34A"
 			(at 140.97 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13183,29 +13891,7 @@
 				)
 			)
 		)
-		(property "IPN" ""
-			(at 138.43 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Name" "Диод германиевый"
-			(at 138.43 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Alt1_IPN" ""
 			(at 138.43 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -13293,6 +13979,50 @@
 				)
 			)
 		)
+		(property "Chipdip_link" "https://www.chipdip.ru/product/d9b-diod-vypryamitelnyy-maloy-moschnosti-germanievyy-48370"
+			(at 138.43 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" ""
+			(at 138.43 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_64&product_id=617"
+			(at 138.43 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 138.43 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0fdb0561-27ae-4691-8f8d-9636a4e85466")
 		)
@@ -13307,10 +14037,12 @@
 					(variant
 						(name "SIM-PAN")
 						(dnp yes)
+						(in_bom no)
 					)
 					(variant
 						(name "SIM-PCB")
 						(dnp yes)
+						(in_bom no)
 					)
 				)
 			)
@@ -13372,17 +14104,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 129.54 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" ""
 			(at 129.54 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -13481,6 +14202,39 @@
 				)
 			)
 		)
+		(property "Chipdip_link" "https://www.chipdip.ru/product/cr0805aj-000eas-resa-as-0805-0r-jumper-125mw-bourns-9000610549"
+			(at 129.54 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" ""
+			(at 129.54 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" ""
+			(at 129.54 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "46a8e183-fc64-44e4-90bf-2eecafdb31dd")
 		)
@@ -13495,10 +14249,12 @@
 					(variant
 						(name "SW-PAN")
 						(dnp yes)
+						(in_bom no)
 					)
 					(variant
 						(name "SW-PCB")
 						(dnp yes)
+						(in_bom no)
 					)
 				)
 			)
@@ -13560,17 +14316,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" ""
 			(at 165.1 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -13648,6 +14393,39 @@
 			)
 		)
 		(property "Temperature" ""
+			(at 165.1 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Chipdip_link" ""
+			(at 165.1 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" ""
+			(at 165.1 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" ""
 			(at 165.1 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -13747,28 +14525,6 @@
 				)
 			)
 		)
-		(property "Alt1_IPN" ""
-			(at 124.46 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "IPN" ""
-			(at 124.46 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Package" "MTS-101"
 			(at 124.46 82.55 90)
 			(hide yes)
@@ -13846,6 +14602,39 @@
 				)
 			)
 		)
+		(property "Chipdip_link" "https://www.chipdip.ru/product/mts-101-on-off-mikrotumbler-spst-3a-250v-20-mom-ruichi-9000344178"
+			(at 124.46 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_alt_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_60&product_id=346"
+			(at 124.46 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Diy-tubes_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_60&product_id=255"
+			(at 124.46 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "db47e478-7589-4c61-bb43-57ff626d0388")
 		)
@@ -13860,10 +14649,12 @@
 					(variant
 						(name "SIM-PAN")
 						(dnp yes)
+						(in_bom no)
 					)
 					(variant
 						(name "SIM-PCB")
 						(dnp yes)
+						(in_bom no)
 					)
 				)
 			)
