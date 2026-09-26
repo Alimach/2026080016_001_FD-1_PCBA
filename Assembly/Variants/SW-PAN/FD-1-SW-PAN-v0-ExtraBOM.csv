@@ -1,4 +1,8 @@
-Name,Value,Qty,Описание,MPN,Manufacturer,Chipdip_link,Diy-tubes_link,Diy-tubes_alt_link
-Плата печатная 2026080016.001 FD-1 v0,,1,,PCB-2026080016-001-FD-1-v0,,,,
-Провод МГШВ-0.2 кв.мм (AWG24),0.2 кв.мм (AWG24),,,,,,,
-Лепесток 1-2-13-36,,1,Для подключения GND к корпусу,,,,,
+Name,Value,Qty,Unit,Описание,Type,MPN,Manufacturer,Chipdip_link,Diy-tubes_link,Diy-tubes_alt_link
+Плата печатная 2026080016.001 FD-1 v0,,1,pcs,,Detail,PCB-2026080016-001-FD-1-v0,,,,
+Лепесток 1-2-13-36,,1,pcs,Для подключения GND к корпусу,Other,,,,,
+"Провод МГШВ-0,2 кв.мм (AWG24), белый","0,2 кв.мм (AWG24), белый",100,mm,,Material,,,,,
+"Провод МГШВ-0,2 кв.мм (AWG24), красный","0,2 кв.мм (AWG24), красный",50,mm,,Material,,,,,
+"Провод МГШВ-0,2 кв.мм (AWG24), черный","0,2 кв.мм (AWG24), черный",100,mm,,Material,,,,,
+Трубка ПВХ Ø 1 мм,Ø 1 мм,,mm,,Material,,,,,
+Вилка штыревая PLH-5,PLH-5,1,pcs,,Other,,,,,
