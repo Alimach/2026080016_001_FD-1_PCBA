@@ -14726,7 +14726,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "MTS-101"
+		(property "Value" "SMTS-101"
 			(at 106.68 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14770,7 +14770,7 @@
 				)
 			)
 		)
-		(property "Name" "Миниатюрный переключатель MTS-101"
+		(property "Name" "Сверхминиатюрный переключатель SMTS-101"
 			(at 118.11 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -14781,7 +14781,7 @@
 				)
 			)
 		)
-		(property "Package" "MTS-101"
+		(property "Package" "SMTS-101"
 			(at 118.11 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -14858,7 +14858,7 @@
 				)
 			)
 		)
-		(property "Chipdip_link" "https://www.chipdip.ru/product/mts-101-on-off-mikrotumbler-spst-3a-250v-20-mom-ruichi-9000344178"
+		(property "Chipdip_link" "https://www.chipdip.ru/product/smts-102-2a2-tumbler-on-on-3a-125vac-1-5a-jietong-switch-404054860"
 			(at 118.11 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -14869,7 +14869,7 @@
 				)
 			)
 		)
-		(property "Diy-tubes_alt_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_60&product_id=346"
+		(property "Diy-tubes_alt_link" ""
 			(at 118.11 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -14880,7 +14880,7 @@
 				)
 			)
 		)
-		(property "Diy-tubes_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_60&product_id=255"
+		(property "Diy-tubes_link" ""
 			(at 118.11 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -14891,7 +14891,7 @@
 				)
 			)
 		)
-		(property "MPN" "MTS-101"
+		(property "MPN" "SMTS-101"
 			(at 118.11 82.55 90)
 			(hide yes)
 			(show_name no)
