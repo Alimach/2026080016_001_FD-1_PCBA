@@ -215,7 +215,7 @@
 		(property "Reference" "VD1"
 			(at -3 -3 0)
 			(layer "F.SilkS")
-			(uuid "8167d2c6-92cc-44bf-b5ec-f6935bec6e83")
+			(uuid "230dd416-10ca-45ff-9429-1141e53ade14")
 			(effects
 				(font
 					(size 1 1)
@@ -227,7 +227,7 @@
 			(at 3.81 2.41 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1aafd1c7-380c-47ac-aa7c-1bc193a28417")
+			(uuid "4a281943-9960-4c47-b5fa-3f37041b94c9")
 			(effects
 				(font
 					(size 1 1)
@@ -239,18 +239,18 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4fdb4d6f-a927-47e8-a445-c87dccde8c17")
+			(uuid "e75fb229-736e-44cf-a436-849e0425b968")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Любой диод DO-41 средней мощности, V > 25 В"
+		(property "Description" "Диод 1N4001, DO-41 (любой кремниевый, средней мощности, U > 25V)"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "742a888c-e9d9-49be-8836-2abc0d4b5ee7")
+			(uuid "ad38c349-bb38-438f-8efa-e096af5e39e3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -400,12 +400,51 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "1N4001"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "34d7790b-a59a-422b-b62c-7ddb77140dcb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "DC Components"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "651336df-fb6c-421d-95e3-634ec674c536")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0163836-5f2c-4217-9ef2-62ce8c249276")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91d7956a-11fd-4f69-bf39-158687fd9e61")
 			(effects
 				(font
 					(size 1 1)
@@ -658,7 +697,7 @@
 		(property "Reference" "S1"
 			(at 11 1.5 0)
 			(layer "F.SilkS")
-			(uuid "47c9624c-3c74-412b-982a-df2a9d202eff")
+			(uuid "187a6702-2a43-449e-84e7-219ec31d23d1")
 			(effects
 				(font
 					(size 1 1)
@@ -670,7 +709,7 @@
 			(at 0.5 -17 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "cbefbd41-c32c-4432-a109-b5bc02c17430")
+			(uuid "43ec5ba8-9f55-44e5-960e-d0240c285442")
 			(effects
 				(font
 					(size 1 1)
@@ -682,18 +721,18 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9c65eafb-3683-4e7d-9a13-786e5f81f796")
+			(uuid "8aa68d5a-28d7-4ebc-81c0-57a0d1e9e8f6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Классический 3PDT под пайку провода"
+		(property "Description" "Переключатель ножной 3PDT, SF17010F-0302, под пайку провода"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b71064e2-5dcd-4626-9df1-3f2d891fcab0")
+			(uuid "cc3e5d8d-da85-48b8-b1aa-180d79e789cb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -862,6 +901,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "09c2f1a0-2a43-4f36-b932-43f613691785")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c1a3e45-dfac-4314-98c8-d18d61f2a345")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0f56603-8d64-4963-96b3-fca9df3df911")
 			(effects
 				(font
 					(size 1 1)
@@ -1058,7 +1123,7 @@
 		(property "Reference" "RP1"
 			(at 4 16 0)
 			(layer "F.SilkS")
-			(uuid "d93bd964-360f-4031-bdf6-df5546d06dae")
+			(uuid "f04bbb9e-21f2-446e-a29b-70633508f219")
 			(effects
 				(font
 					(size 1 1)
@@ -1070,7 +1135,7 @@
 			(at 0 -7 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a6d0250e-878b-4c55-8278-e2dd1e1c7302")
+			(uuid "b47b2ae6-2b66-40e4-b18c-341c610d6d9e")
 			(effects
 				(font
 					(size 1 1)
@@ -1082,18 +1147,18 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2c635645-06be-40e1-ba11-d4dc38adf447")
+			(uuid "b343bdc7-e071-418b-a3d1-3a86af44159b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Обратнологарифмический (C)"
+		(property "Description" "Потенциометр RV16AF-10-15K, 500k, обратнологарифмический (C)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a489be72-2e6e-4e5c-82c9-390619d27f5a")
+			(uuid "5da1dee5-733e-4c99-8055-6e3b714d0836")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1269,10 +1334,42 @@
 				)
 			)
 		)
+		(property "Unit" "pcs"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f744757-37a6-486c-8b7a-3f39b1b255dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dbfdc288-fd5f-4988-9deb-8734c29fa91c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Potentiometer*")
 		(path "/00000000-0000-0000-0000-000061a4b8f8")
 		(sheetname "/")
 		(sheetfile "First_Distortion_FD-1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1467,7 +1564,7 @@
 		(property "Reference" "RP2"
 			(at 6 -7.5 0)
 			(layer "F.SilkS")
-			(uuid "799903aa-2a57-48be-9b6e-2d26982d0fa8")
+			(uuid "a1021e58-8f69-4849-a040-8a7d219e26d3")
 			(effects
 				(font
 					(size 1 1)
@@ -1479,7 +1576,7 @@
 			(at 0 -7 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5baf9258-d76d-492e-b405-73c0bfb641a2")
+			(uuid "363d683c-f93a-4c58-8452-296faca8cc62")
 			(effects
 				(font
 					(size 1 1)
@@ -1491,18 +1588,18 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6cf06cdd-fc73-4373-ae77-2ad4ad2adedf")
+			(uuid "f37f90a0-2352-42db-921a-6ad0dd65466c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Логарифмический (A)"
+		(property "Description" "Потенциометр RV16AF-10-15K, 50k, логарифмический (A)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ba75cdcf-9cc7-437d-8ea3-d5580893e8da")
+			(uuid "f86e45e2-67a5-47c9-ae48-6b84fd9d4570")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1678,10 +1775,42 @@
 				)
 			)
 		)
+		(property "Unit" "pcs"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0940af5-bdbc-47c1-bab4-402c3d3ac724")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be4c6fdd-6882-40d9-8692-3f6542c6425c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Potentiometer*")
 		(path "/00000000-0000-0000-0000-000061a4d5d7")
 		(sheetname "/")
 		(sheetfile "First_Distortion_FD-1.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1878,7 +2007,7 @@
 		(property "Reference" "R10"
 			(at 4.5 2 0)
 			(layer "F.SilkS")
-			(uuid "acc1c13c-b71b-46dc-8d81-4d7af7b72057")
+			(uuid "c2cb1d87-2713-42fc-bbb7-7dd6afcf89c5")
 			(effects
 				(font
 					(size 1 1)
@@ -1890,7 +2019,7 @@
 			(at 3.81 2.31 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e518afab-1ec3-4ec1-ba79-9b9513658f15")
+			(uuid "a7a4468d-1063-46f8-b4e8-9efcedaa1b73")
 			(effects
 				(font
 					(size 1 1)
@@ -1902,18 +2031,18 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8b93aba5-c9c3-4319-a9ad-ef94a9321385")
+			(uuid "d3f778cd-164f-4a74-a027-6e655ddbb4e4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Резистор THT, 0.125W, MF, 10k ±5%"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "53348b9d-b765-41f4-806d-6d317bf9bdbd")
+			(uuid "8e3216fd-d192-4357-aba4-c9c1e3bd3495")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2056,6 +2185,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "648646a5-0658-406a-a00d-81f04479d4fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "KLS6-MF-1/4W-10KR-J"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a4975b3-e8a8-463a-a26b-aa6a9c8173b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "KLS"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a389212-ff75-40cf-885f-914dee7e9591")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91123d12-fdf9-4562-ac82-659d8eb16b2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "161c08bf-5be7-4f8e-bd05-c365ee789fe6")
 			(effects
 				(font
 					(size 1 1)
@@ -2286,7 +2467,7 @@
 		(property "Reference" "X3"
 			(at -1.5 -5.5 0)
 			(layer "F.SilkS")
-			(uuid "ef6bae08-db16-4a10-9284-2364fbf012c3")
+			(uuid "707c6d1f-63b9-4c0e-84ce-e11f50691e6b")
 			(effects
 				(font
 					(size 1 1)
@@ -2298,7 +2479,7 @@
 			(at 1 -2.5 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b7a6b7e1-2349-41e7-a6a1-adffe078da32")
+			(uuid "24dcca47-945d-4da2-9595-831ce99f7453")
 			(effects
 				(font
 					(size 1 1)
@@ -2310,18 +2491,18 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "80d6abfc-05a9-4c1f-823f-03b07c2fd87f")
+			(uuid "9731bcef-140f-4d29-a543-d15b4605e154")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Разъём для батареи типа \"Крона\" боковой с проводом"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e16940a8-90ff-4a9d-9d58-a4bcc1cdfab1")
+			(uuid "ccd16aa8-670a-4c92-b835-f9366fa18ca9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2471,6 +2652,32 @@
 				)
 			)
 		)
+		(property "Unit" "pcs"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7dac0979-caac-481f-aff1-95d4f55a439c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a16c64a1-2098-4b4d-a76e-dbcb5f484a60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-000061a5a4af")
 		(sheetname "/")
 		(sheetfile "First_Distortion_FD-1.kicad_sch")
@@ -2574,7 +2781,7 @@
 		(property "Reference" "XS2"
 			(at -0.75 1.5 0)
 			(layer "F.SilkS")
-			(uuid "c5c528ed-02fb-47d0-89de-205b2882a581")
+			(uuid "7a1cdaa6-8433-4147-b6b4-eb457e45fa41")
 			(effects
 				(font
 					(size 1 1)
@@ -2586,7 +2793,7 @@
 			(at 10.5 20 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7b5b405f-f338-4357-9a80-51a14021c525")
+			(uuid "3bab0655-3425-44ed-9f38-4ab3e33520ec")
 			(effects
 				(font
 					(size 1 1)
@@ -2598,18 +2805,18 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fff2e1eb-7d2b-4208-96bd-55cfb880a4ab")
+			(uuid "e7a77f9b-05d0-4323-9084-b1cf896ce432")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Гнездо Jack 6,3 мм TRS NMJ6HCD2"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "62c04a46-5cba-458e-9d91-5cd6279b3f77")
+			(uuid "c036362e-e8cf-4ff4-80b8-e794068a00a5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2778,6 +2985,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7eb7120b-35ab-4eac-8bbf-a6ffe2e29377")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "047a8cd7-aa9a-449c-b63d-7977d5431106")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9bc5efb6-15f0-4fcb-896a-55c77fad0d4c")
 			(effects
 				(font
 					(size 1 1)
@@ -3032,7 +3265,7 @@
 		(property "Reference" "X4"
 			(at -2.5 0 0)
 			(layer "F.SilkS")
-			(uuid "6d7eb9c0-05a2-41cc-bfaa-6d5f193e4a2c")
+			(uuid "e6a06516-3f5c-43cd-968a-e795c56e0b9a")
 			(effects
 				(font
 					(size 1 1)
@@ -3044,7 +3277,7 @@
 			(at -1.905 3.175 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8d921867-56cb-4fbd-9256-0b86fde43555")
+			(uuid "4a0f1705-c6b9-48f5-bd05-bacbf470bc57")
 			(effects
 				(font
 					(size 1 1)
@@ -3056,7 +3289,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "18105db9-2d0f-4268-b17a-954542874390")
+			(uuid "e5118d97-a96a-4165-91d9-d7e3f30ed9d6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3067,7 +3300,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "74834453-5fbf-450a-a1ee-6587d5b41f25")
+			(uuid "47128489-a718-4144-a3db-3e538335dd75")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3204,6 +3437,32 @@
 				)
 			)
 		)
+		(property "Unit" "pcs"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d7ceed4-5bd7-4d9a-b151-a6ca51da57ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69b5ead0-87c2-4678-87ba-edaeee640f4c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SolderWirePad_single_*")
 		(path "/00000000-0000-0000-0000-000061b08615")
 		(sheetname "/")
@@ -3236,7 +3495,7 @@
 		(property "Reference" "S2"
 			(at -3.5 -3 0)
 			(layer "F.SilkS")
-			(uuid "c64059a9-220b-4b80-9280-828893312657")
+			(uuid "d4eaa76f-b396-4f6e-810a-ccef0cb04e88")
 			(effects
 				(font
 					(size 1 1)
@@ -3244,11 +3503,11 @@
 				)
 			)
 		)
-		(property "Value" "MTS-101"
+		(property "Value" "SMTS-101"
 			(at 1 -2.5 270)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8d5d1e4d-acce-442d-a6e7-e246631295ae")
+			(uuid "4c267027-f5e2-4ef0-a790-a1351e2f4b42")
 			(effects
 				(font
 					(size 1 1)
@@ -3260,18 +3519,18 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5b1b5329-cb8d-485a-a907-d6fce1b9e552")
+			(uuid "1c9d0980-ffcc-4dff-8dd3-ede823b21673")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "ON-OFF, SPST, установочное отверстие 5 мм, 2 контакта"
+		(property "Description" "Сверхминиатюрный переключатель SMTS-101, ON-OFF, SPST, установочное отверстие 5 мм, 2 контакта"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7354aa6f-c6c5-41e7-bdcb-48169cca5662")
+			(uuid "dd8f5a28-52fd-451d-b4df-8b5e5b58cac3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3382,7 +3641,7 @@
 				)
 			)
 		)
-		(property "Chipdip_link" "https://www.chipdip.ru/product/mts-101-on-off-mikrotumbler-spst-3a-250v-20-mom-ruichi-9000344178"
+		(property "Chipdip_link" "https://www.chipdip.ru/product/smts-102-2a2-tumbler-on-on-3a-125vac-1-5a-jietong-switch-404054860"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3395,7 +3654,7 @@
 				)
 			)
 		)
-		(property "Diy-tubes_alt_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_60&product_id=346"
+		(property "Diy-tubes_alt_link" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3408,12 +3667,64 @@
 				)
 			)
 		)
-		(property "Diy-tubes_link" "https://diy-tubes.ru/index.php?route=product/product&path=25_60&product_id=255"
+		(property "Diy-tubes_link" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "05f29dbe-7d47-4c4a-8445-4046d6435700")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SMTS-101"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a44b755b-6309-4f7b-ad35-1aaf07fabfa6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "RUICHI"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f06429c5-0070-43ab-9fa3-008d992ad9e3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57bc685e-b524-4769-8726-0b8d8cddec84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6479267-bfed-4ac2-a8d2-d0d819db1533")
 			(effects
 				(font
 					(size 1 1)
@@ -3534,7 +3845,7 @@
 		(property "Reference" "XS1"
 			(at 20.75 1 0)
 			(layer "F.SilkS")
-			(uuid "56c93876-bf29-4d5a-9136-c832f5d8d627")
+			(uuid "0ac326f5-269a-4730-8a9e-8a066f1d1bbe")
 			(effects
 				(font
 					(size 1 1)
@@ -3546,7 +3857,7 @@
 			(at 10.5 20 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "4a7bf52d-afc3-492a-9a59-0a5db1140ac8")
+			(uuid "88d180b4-96e0-4a8e-9198-efe24bda6055")
 			(effects
 				(font
 					(size 1 1)
@@ -3558,18 +3869,18 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a4ff4204-8432-4641-b45a-744108f07253")
+			(uuid "ad08debb-63d3-46b5-a87c-f69695051fe5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Гнездо Jack 6,3 мм TRS NMJ6HCD2"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5bca65e3-272c-46d5-974a-b01cf7a12e24")
+			(uuid "a2f1720e-7cbd-40b9-8c03-cff7b48bcc6a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3738,6 +4049,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f61d1166-07ad-4c50-80b6-253df2b78b62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7733aa2-b091-4214-a9a0-a0ccf9f4faf2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4dd2833-b565-4b74-b52c-57f329181a8a")
 			(effects
 				(font
 					(size 1 1)
@@ -3994,7 +4331,7 @@
 		(property "Reference" "X2"
 			(at -2.5 9 0)
 			(layer "F.SilkS")
-			(uuid "76c0ad8c-3cb7-4bed-b708-47b577af5e18")
+			(uuid "e1010162-fa12-492b-b569-2b3c1ef60668")
 			(effects
 				(font
 					(size 1 1)
@@ -4006,7 +4343,7 @@
 			(at 0 7.25 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "84cc3e5d-1db0-4e37-8de5-b74e76b32971")
+			(uuid "12d5488f-3293-4238-b97e-8c0cdad97e49")
 			(effects
 				(font
 					(size 1 1)
@@ -4018,18 +4355,18 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6031308c-8cb2-49f2-8516-3156f22351cd")
+			(uuid "d0f231d5-bb92-4143-8f15-81de84256f02")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "2,0х5,5 мм, на панель, крепёжное отверстие Ø 11 мм, гайка снизу, под пайку провода"
+		(property "Description" "Гнездо KLS1-DC-022B-2.0, отверстие Ø 5,5 мм, штырь Ø 2 мм, на панель, Ø 11 мм, гайка снизу, под провод"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bc73e29a-fafe-41f8-881d-e1a94922065f")
+			(uuid "58b4067f-1445-4a2f-b8c6-e54c666e11ae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4198,6 +4535,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "59402838-e559-40ae-892a-e3c0bb1a78dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c86e4891-6a04-4558-834e-88d02108b10a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db5c60c8-e4bc-4421-bb3b-508c35484b52")
 			(effects
 				(font
 					(size 1 1)
@@ -4461,7 +4824,7 @@
 		(property "Reference" "VD4"
 			(at -3.38 0 0)
 			(layer "F.SilkS")
-			(uuid "96be0287-cb8e-4e8b-8103-66df04c15d16")
+			(uuid "8bbe0dc8-3eb0-4357-b04f-4568e4fe12c0")
 			(effects
 				(font
 					(size 1 1)
@@ -4469,11 +4832,11 @@
 				)
 			)
 		)
-		(property "Value" "1N34A"
+		(property "Value" "1N34A (Д9)"
 			(at 3.81 2.41 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "707c5911-b664-4aee-9acc-0dee55ad205d")
+			(uuid "3972281f-7e6c-489b-9380-7992b385ed5d")
 			(effects
 				(font
 					(size 1 1)
@@ -4485,18 +4848,18 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5436c2b8-a1d8-4bf7-aebc-57a02985038e")
+			(uuid "d8fedd21-f0d5-423e-9dc0-5e29c9a9abdd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Любой германиевый маломощный диод (макс. размер DO-41): Д9, Д310 и т.д."
+		(property "Description" "Диод 1N34A (Д9, Д310 и т.п.), DO-35 или DO-41 (любой германиевый, маломощный)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ed0f2daa-be52-46e5-85d2-a254b9be4094")
+			(uuid "d8418caa-12da-4a9e-bb0f-efb8790da0ff")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4646,12 +5009,38 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "Д9"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "274660f0-56cc-47a0-b52e-fa1750b22ff7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d05af1d-ea9c-4e03-b5ff-7bc225bf63a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86481bf3-6d5a-48ce-803c-a0daecce8eb3")
 			(effects
 				(font
 					(size 1 1)
@@ -4927,7 +5316,7 @@
 		(property "Reference" "VD2"
 			(at -2.5 1.5 0)
 			(layer "F.SilkS")
-			(uuid "8d7e1b8b-3b56-4de3-a226-8784ef97e733")
+			(uuid "0f30e033-432f-4f80-a29d-ef26b548935b")
 			(effects
 				(font
 					(size 1 1)
@@ -4935,11 +5324,11 @@
 				)
 			)
 		)
-		(property "Value" "1N34A"
+		(property "Value" "1N34A (Д9)"
 			(at 3.81 2.41 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "195ff8ef-91a1-4ebe-93e1-0939c7624b96")
+			(uuid "e1b67a3f-69ad-4079-9a56-83163bca88c3")
 			(effects
 				(font
 					(size 1 1)
@@ -4951,18 +5340,18 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dd6cdc09-d79c-4ead-8cb4-c9f3a33ee4cd")
+			(uuid "ddbbfd25-cc31-4f19-a04f-f1f8efeaa65c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Любой германиевый маломощный диод (макс. размер DO-41): Д9, Д310 и т.д."
+		(property "Description" "Диод 1N34A (Д9, Д310 и т.п.), DO-35 или DO-41 (любой германиевый, маломощный)"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0e5e7f12-f8c5-4965-a635-5a8c85386c2c")
+			(uuid "7e4e51c3-d089-4e1a-9edf-7590d75a0d69")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5112,12 +5501,38 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "Д9"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9fca351d-1df3-417f-b556-58fc9311034d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47e96f92-81ee-48ab-b546-c925709c85cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f877f27-3b99-4ec4-97e6-9964d6fd0174")
 			(effects
 				(font
 					(size 1 1)
@@ -5383,7 +5798,7 @@
 		(property "Reference" "VD3"
 			(at 6.5 2.5 0)
 			(layer "F.SilkS")
-			(uuid "7449d3eb-d522-43e3-8963-cf83af829c56")
+			(uuid "108ae336-a8ec-4156-8791-85f548e14b20")
 			(effects
 				(font
 					(size 1 1)
@@ -5391,11 +5806,11 @@
 				)
 			)
 		)
-		(property "Value" "1N34A"
+		(property "Value" "1N34A (Д9)"
 			(at 3.81 2.41 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5c717ecb-2878-45ad-a0c2-0cbcb409648c")
+			(uuid "48b3d8d5-7093-438b-b3ee-ad605436560c")
 			(effects
 				(font
 					(size 1 1)
@@ -5407,18 +5822,18 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aebc9fe7-0e33-4c15-b77a-aa16880d78b6")
+			(uuid "0776b51d-4d28-48c6-94fb-3130a59382ca")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Любой германиевый маломощный диод (макс. размер DO-41): Д9, Д310 и т.д."
+		(property "Description" "Диод 1N34A (Д9, Д310 и т.п.), DO-35 или DO-41 (любой германиевый, маломощный)"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ddeccb81-e529-4755-b5d2-d0352d4f37ab")
+			(uuid "62ab9cd7-7ba1-456f-bd48-5a89c3095124")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5568,12 +5983,38 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "Д9"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e896e99c-ee86-41f5-ad00-b91b7c479762")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd3110a1-b561-4e8e-a6a1-49e3695af171")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99f0650c-30fa-42b8-be68-66d90713f57f")
 			(effects
 				(font
 					(size 1 1)
@@ -5839,7 +6280,7 @@
 		(property "Reference" "X1"
 			(at -6.5 6.5 0)
 			(layer "F.SilkS")
-			(uuid "830331e8-6c73-40b1-95fd-4801df216334")
+			(uuid "0fc2492e-458a-47e5-a395-de99b0c74631")
 			(effects
 				(font
 					(size 1 1)
@@ -5851,7 +6292,7 @@
 			(at -6.2 -5.5 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "200c100b-7391-4df6-8776-7a2f8c23b479")
+			(uuid "77e3232e-9226-47c6-b8bd-bd6ef47b6dc6")
 			(effects
 				(font
 					(size 1 1)
@@ -5863,18 +6304,18 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8b6bd295-eac2-428d-bdae-20875a0fe890")
+			(uuid "835c433d-d6f0-495b-8af0-1492bdd31118")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "2,0х5,5 мм, пайка на плату"
+		(property "Description" "Гнездо KLS1-DC-005A-2.0, отверстие Ø 5,5 мм, штырь Ø 2 мм, пайка на плату"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c0851040-8906-48d3-9237-618e01f0432d")
+			(uuid "1e3e839e-b7e7-4ca0-9183-0f5080ec6c79")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6043,6 +6484,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "25e88e34-c274-4d78-8444-12771622e322")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3326b06f-19b8-4868-93a7-db423b92b734")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b50afef0-0b1b-4ddd-9130-bfef60368ddc")
 			(effects
 				(font
 					(size 1 1)
@@ -6366,7 +6833,7 @@
 		(property "Reference" "C7"
 			(at 5 -1 0)
 			(layer "F.SilkS")
-			(uuid "bfe4acf0-c7e3-41c6-aa5f-74e17403dfee")
+			(uuid "7aae47e3-70e4-410d-99ff-cab817ef4d54")
 			(effects
 				(font
 					(size 1 1)
@@ -6378,7 +6845,7 @@
 			(at 1.25 3.81 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "23262a71-b60a-4b82-9b7b-8b9e84bed07c")
+			(uuid "2cc5f223-3baf-47f9-b9d1-3e1275652fde")
 			(effects
 				(font
 					(size 1 1)
@@ -6390,18 +6857,18 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a9d50157-83c5-4105-85d5-b8739e356259")
+			(uuid "ac01f0fe-2df2-465b-9ae7-033291c8ff96")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Конденсатор THT, Ø5mm, H11mm, pin pitch 2.5mm, Aluminium Electrolityc, 1uF ±20%, 50V, 85°C"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f278cf65-e57d-4a05-ab39-0826d0e4257f")
+			(uuid "34c9bbf1-3e7f-47ca-adc5-1ce9c2998b13")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6570,6 +7037,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cab98a79-2bb1-415d-a0f2-372090089ce8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b17f8714-dd0e-4af7-b65d-68fc1f846ba4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b51af46-91ac-49a2-acc6-b5e086e7be15")
 			(effects
 				(font
 					(size 1 1)
@@ -7919,7 +8412,7 @@
 		(property "Reference" "C2"
 			(at 2 -2.5 0)
 			(layer "F.SilkS")
-			(uuid "a0ebf02b-4c7b-4c19-97fc-a144874ebe87")
+			(uuid "22dc51b3-79bd-468d-9ba2-fba224480d2f")
 			(effects
 				(font
 					(size 1 1)
@@ -7931,7 +8424,7 @@
 			(at 2.5 2.56 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8920eeee-f2ba-4b8d-b76a-61f4c83d8fa2")
+			(uuid "cf203d9c-46a9-4bb7-92b0-ad6de47fe806")
 			(effects
 				(font
 					(size 1 1)
@@ -7943,18 +8436,18 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "62bb5ca1-6894-4f0e-849d-83585b2e2321")
+			(uuid "0443d0e8-967b-4545-9941-1c73e6bef6f3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Конденсатор THT, L7xW2.5xH6.5mm, pin pitch 5 mm, MKT, 10nF ±20%, 63V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "239dd521-0523-44c9-b7e0-db13be1c8775")
+			(uuid "defbd062-7b56-4fc5-bc95-5c54c657f71a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8123,6 +8616,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "28150176-4411-4d49-9d0e-a2166ce254c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46685a6b-cabe-4873-9806-861f173afa67")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2796bae9-fe4b-461a-88aa-5054d23ea025")
 			(effects
 				(font
 					(size 1 1)
@@ -8326,7 +8845,7 @@
 		(property "Reference" "C1"
 			(at 7.5 0 0)
 			(layer "F.SilkS")
-			(uuid "48a06ee2-6239-4061-9881-bbb02bc71fd7")
+			(uuid "5f0a929d-5de0-4d5f-9c3e-2005df6afbb1")
 			(effects
 				(font
 					(size 1 1)
@@ -8338,7 +8857,7 @@
 			(at 2.5 2.56 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f802ad60-6f02-4b1a-a729-2389195c1cb7")
+			(uuid "dc324eeb-f706-43c7-8cd8-517676bf9e43")
 			(effects
 				(font
 					(size 1 1)
@@ -8350,18 +8869,18 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3e0b1cd4-57a0-4934-9aed-d1fc835277a8")
+			(uuid "4de29e5f-7dd8-4c5f-84c9-e252726ccd12")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Конденсатор THT, L7xW2.5xH6.5mm, pin pitch 5 mm, MKT, 1nF ±20%, 63V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d75ac369-11e6-49fe-a154-0b535257f633")
+			(uuid "d6c88420-e8ca-4fae-b2d2-7ee48b854596")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8530,6 +9049,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4440e800-266b-4d40-ada9-7e2f985ecb0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6fdc6e97-bb26-4830-a79b-925333ba40e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71c7a7f0-577d-4776-b0d0-f31b2e2a7f84")
 			(effects
 				(font
 					(size 1 1)
@@ -8733,7 +9278,7 @@
 		(property "Reference" "R8"
 			(at 3.62 -2.5 180)
 			(layer "F.SilkS")
-			(uuid "7a4a152b-ab4e-46ef-b43c-995f9f6651cd")
+			(uuid "aff02e11-d61b-4e71-b10a-ad6dc3257342")
 			(effects
 				(font
 					(size 1 1)
@@ -8745,7 +9290,7 @@
 			(at 3.81 2.31 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "4b40a865-94e7-4c9b-8cf1-079f590c1ab4")
+			(uuid "342576bb-3f08-4da1-9f83-ff31db0985cf")
 			(effects
 				(font
 					(size 1 1)
@@ -8757,18 +9302,18 @@
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "01b5515a-8b88-4e74-bc76-39a71f034279")
+			(uuid "5c7bf288-72d9-42e2-b946-ee98192070c4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Резистор THT, 0.125W, MF, 1М ±5%"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3fc7fd27-cd0d-455a-a898-64c84706dd91")
+			(uuid "3a80c961-3fa9-41b2-9c2b-aa45a73872d9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8911,6 +9456,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fd458759-26e1-47d8-b910-f8227e22a02f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "KLS6-MF-1/4W-1MR-J"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4387827b-333a-43dd-9d42-f5142b588564")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "KLS"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "187e6d14-92e1-4e53-9114-c7d53751c32e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ed73148-ba40-40ac-affd-1f72f28fa571")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "171e7433-69df-4267-a345-1b8699daccbc")
 			(effects
 				(font
 					(size 1 1)
@@ -9143,7 +9740,7 @@
 		(property "Reference" "R7"
 			(at 3.5 -2 0)
 			(layer "F.SilkS")
-			(uuid "d58443bf-0c1b-4c16-bfa7-c6f41ee8c992")
+			(uuid "51da98a0-747c-4289-b441-255f30e29bee")
 			(effects
 				(font
 					(size 1 1)
@@ -9155,7 +9752,7 @@
 			(at 3.81 2.31 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5028a999-0b7a-426b-bc8f-4ec46e3cf637")
+			(uuid "1d496588-a846-4e80-a4bc-eb76432acd56")
 			(effects
 				(font
 					(size 1 1)
@@ -9167,18 +9764,18 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "23790755-ba78-4fcb-87e5-5ca4e0499014")
+			(uuid "c459f746-be63-4a31-bbee-2e2ddb77a26a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Резистор THT, 0.125W, MF, 1М ±5%"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "73f9648f-64ab-4200-9cbc-321a6bfbe47c")
+			(uuid "347043f6-3d14-4cc4-8580-dcd063adb220")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9321,6 +9918,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0f733fbf-91fc-4457-b4e9-72957be64962")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "KLS6-MF-1/4W-1MR-J"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68c585c8-1d6b-4ed2-931f-2e171c9de409")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "KLS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee2cdf0e-19fb-490b-9db8-6ff0ed665754")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04770b8c-94ab-4b58-95b8-84a981650ee3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6a70add-f745-4096-9bd1-661c6814495a")
 			(effects
 				(font
 					(size 1 1)
@@ -9553,7 +10202,7 @@
 		(property "Reference" "R3"
 			(at 1.5 -2.5 180)
 			(layer "F.SilkS")
-			(uuid "ff20641c-88e1-4a0b-98b7-a4f3b09b6972")
+			(uuid "a762fcbd-9401-444c-973b-c9c5505e8c65")
 			(effects
 				(font
 					(size 1 1)
@@ -9565,7 +10214,7 @@
 			(at 3.81 2.31 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c30dff38-b9c6-4d05-ab70-d627d8fd2c12")
+			(uuid "a0f0f88d-a08a-4a35-8cef-98b9fe09fceb")
 			(effects
 				(font
 					(size 1 1)
@@ -9577,18 +10226,18 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "961eec62-f56d-4e24-8d29-8342ea3e9ee5")
+			(uuid "611aab2b-1a06-4033-9a90-fdb275492dfa")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Допускается углеродистый"
+		(property "Description" "Резистор THT, 0.125W, MF (допускается CF), 10R ±20%"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4ad90ab5-8251-4917-b533-709edbd23f8b")
+			(uuid "d1646f92-2a20-47d1-98af-eef0bc893cb7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9731,6 +10380,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9f546426-d4ac-4147-98b4-acd39515b3f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "KLS6-MF-1/4W-10R-J"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f6d0a01-f906-45bb-9650-c7e29f71d457")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "KLS"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ce94fbc-d505-4521-9fa2-30655a248f89")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4eaf992e-cd2d-4cf1-9582-582689c348f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6264d21-2c59-4809-92b4-efb5c45dadae")
 			(effects
 				(font
 					(size 1 1)
@@ -9963,7 +10664,7 @@
 		(property "Reference" "DA1"
 			(at 10 0.5 180)
 			(layer "F.SilkS")
-			(uuid "3c7407ab-4954-4015-8f73-f7a7ef9d0306")
+			(uuid "81dbad54-5791-4fb5-b2ba-999c6c7cbb06")
 			(effects
 				(font
 					(size 1 1)
@@ -9975,7 +10676,7 @@
 			(at 3.81 9.95 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6e21ac1f-8939-4bc8-a717-bfc80434cd4f")
+			(uuid "2b13ad19-878e-48c9-9f71-55655f734527")
 			(effects
 				(font
 					(size 1 1)
@@ -9987,18 +10688,18 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "499b8c45-2423-4e00-a206-0158ac8c74be")
+			(uuid "e30bcdde-221d-4174-afcf-dd2803df1dbb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Любой аналог: КР140УД7, К140УД7, MAA741 и т.д. Можно в металлическом круглом корпусе TO-99-8"
+		(property "Description" "uA741, MAA741, КР140УД7, К140УД7, DIP-8 или TO-99-8"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fb89265d-5f04-4ac0-a7e9-1fa0fb072085")
+			(uuid "e3a1a7d3-e488-429b-9203-ad714e9afd23")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10167,6 +10868,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1f9f77f5-71b2-409e-8c20-dc0136681073")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "349ebf1f-2b28-443e-a571-92a866f28fd6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "522533af-5a20-4c87-a36d-c0f01a51e87d")
 			(effects
 				(font
 					(size 1 1)
@@ -10458,7 +11185,7 @@
 		(property "Reference" "C4"
 			(at -1 -3.5 0)
 			(layer "F.SilkS")
-			(uuid "c7f9a6a1-aef8-49e3-bcbe-114c8513e45a")
+			(uuid "754aeaee-bfc5-4681-9427-1fcb46a03a97")
 			(effects
 				(font
 					(size 1 1)
@@ -10470,7 +11197,7 @@
 			(at 1.25 4.46 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "133f3fa5-a050-4047-90c9-109a68f5d5a0")
+			(uuid "e1089414-b1dc-4c28-b717-c5887a4060f8")
 			(effects
 				(font
 					(size 1 1)
@@ -10482,18 +11209,18 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f91bb899-c7de-41a8-b4c7-81b59fcf18bc")
+			(uuid "15fa8f92-8bc1-477c-bdbe-11970b3ed9f7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Конденсатор THT, Ø5mm, H11mm, pin pitch 2.5mm, Aluminium Electrolityc, 100uF ±20%, 16V, 85°C"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "04bbf188-86c0-4671-b44c-2a92b05aa531")
+			(uuid "f21b01d2-d3f8-41cb-9860-9217aba3fb12")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10662,6 +11389,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4f20bd17-91df-4050-b838-a41967501f96")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02929291-9172-423a-80ce-43659f50da3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "35dd4fad-59ea-48c6-baf9-82d84f5b66c3")
 			(effects
 				(font
 					(size 1 1)
@@ -12138,6 +12891,22 @@
 			(pintype "passive")
 			(uuid "0687dfc2-c6e4-4344-8617-8ebd8d8a8d6f")
 		)
+		(variant
+			(name "SIM-PAN")
+			(dnp no)
+		)
+		(variant
+			(name "SIM-PCB")
+			(dnp no)
+		)
+		(variant
+			(name "SW-PAN")
+			(dnp no)
+		)
+		(variant
+			(name "SW-PCB")
+			(dnp no)
+		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D6.3mm_P2.50mm.step"
 			(offset
@@ -12171,7 +12940,7 @@
 		(property "Reference" "C3"
 			(at 1.5 -2 0)
 			(layer "F.SilkS")
-			(uuid "ce9f8164-2615-40d9-9930-3a5bc0eb6c36")
+			(uuid "53cac55b-6008-4be4-8567-fdc71466ed90")
 			(effects
 				(font
 					(size 1 1)
@@ -12183,7 +12952,7 @@
 			(at 2.5 2.56 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ca8f4d44-edb5-4b03-8c83-752c81fe47e8")
+			(uuid "14f3afca-2799-4422-b9cf-a7df48d99c44")
 			(effects
 				(font
 					(size 1 1)
@@ -12195,18 +12964,18 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "af866432-762c-4365-9141-58b3d34e6d49")
+			(uuid "422bf08f-b9db-4e38-8e2d-5132dc087eba")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Конденсатор THT, L7xW2.5xH6.5mm, pin pitch 5 mm, MKT, 47nF ±20%, 63V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "018debec-6dc2-434a-9465-f0b30d5be6c6")
+			(uuid "19095984-a986-4f62-afd9-125f89caa7ad")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12375,6 +13144,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ec222cd7-43ac-4a9e-a3b8-8fb651cb13db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91aeb002-4057-4acb-a2f4-25c8a45710f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "622655aa-4a0f-48f8-b40c-ee4f95252d93")
 			(effects
 				(font
 					(size 1 1)
@@ -12578,7 +13373,7 @@
 		(property "Reference" "HL1"
 			(at -1.46 -2 180)
 			(layer "F.SilkS")
-			(uuid "3738ece2-5c23-41d0-ba40-395f9052aafa")
+			(uuid "7abb9c55-9830-4a61-8342-1c63f881ee53")
 			(effects
 				(font
 					(size 1 1)
@@ -12590,7 +13385,7 @@
 			(at 1.27 2.96 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "10c50a22-b1ff-4fa0-880f-44e6ccca5de7")
+			(uuid "3b35df6c-9bc8-4895-ba6d-02948587dcab")
 			(effects
 				(font
 					(size 1 1)
@@ -12602,18 +13397,18 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "17b3ca6b-8bf3-466a-989c-e76940c3338a")
+			(uuid "b9c8cea3-003e-4e19-82ad-531a600a5ff5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Любой выводной светодиод 3 мм"
+		(property "Description" "LED THT, Ø 3 мм, красный"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9ac106d8-ff44-4959-8a7e-5ebb715c800e")
+			(uuid "ac802a40-096b-42ae-ada3-6baaeef01cfa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12782,6 +13577,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bb241174-93c0-4983-ad2b-42b6caaff2ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5749ea76-d963-47d0-9886-30f4faa89a6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8384d4f-3a70-48bc-94da-005bb1dd5d91")
 			(effects
 				(font
 					(size 1 1)
@@ -12992,7 +13813,7 @@
 		(property "Reference" "R2"
 			(at 5.12 2 0)
 			(layer "F.SilkS")
-			(uuid "54cf1502-3eb4-476b-99c4-02fb61b635d3")
+			(uuid "a9847738-81dd-4c01-9f63-db4969952812")
 			(effects
 				(font
 					(size 1 1)
@@ -13004,7 +13825,7 @@
 			(at 3.81 2.31 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "88e03785-674c-402f-bdb3-c8bf7ac95db2")
+			(uuid "8e4595ed-596e-45ca-849f-def7df3beb1c")
 			(effects
 				(font
 					(size 1 1)
@@ -13016,18 +13837,18 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8a43480e-ab98-4805-8d31-17aaa3481f1f")
+			(uuid "9c3030e3-96a2-4ac4-9157-efb771fdbbfb")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Резистор THT, 0.125W, MF, 4k7 ±5%"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f5bdca8b-8d76-4ae8-ad51-a8ca29b23628")
+			(uuid "aff9478e-2ee5-462e-abe9-816c9644843a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13170,6 +13991,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3443d03c-1863-4b1c-b0c2-e3f86c407827")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "KLS6-MF-1/4W-4K7R-J"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8b138e4-9bb5-4b3a-874c-5e55c8f2d120")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "KLS"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "863c696e-823d-48a9-b25a-d5d2c1d04c6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82b80c87-9947-4245-9bda-624ec938f66b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f04eac84-5ccd-4aea-a5ce-1e5cb04faa6e")
 			(effects
 				(font
 					(size 1 1)
@@ -13402,7 +14275,7 @@
 		(property "Reference" "R1"
 			(at 10.12 0.5 0)
 			(layer "F.SilkS")
-			(uuid "6fb82d5c-b79d-45d9-b584-9e002bb8fd77")
+			(uuid "08b1ed2a-8869-47ca-9c9c-f9d2053fc9c8")
 			(effects
 				(font
 					(size 1 1)
@@ -13414,7 +14287,7 @@
 			(at 3.81 2.31 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "25946bb9-835e-4c0a-8f0b-739ff76a6dbf")
+			(uuid "2dbcf418-ea39-4009-bbd8-d03b2b536716")
 			(effects
 				(font
 					(size 1 1)
@@ -13426,18 +14299,18 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e153565d-f74a-4601-868f-60eb08cbeea8")
+			(uuid "c443cd7f-0626-47f8-a9c3-c603e430275a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Резистор THT, 0.125W, MF, 1М ±5%"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f766f9ee-9577-4739-be19-0e3626846c12")
+			(uuid "a7c6ef0a-64e3-4af0-ba42-abba0679de0a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13580,6 +14453,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "34fcfc48-767c-4319-a863-af0c1de9581f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "KLS6-MF-1/4W-1MR-J"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4fb2897-20d1-4ac6-857d-d9b904138d8e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "KLS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d1b3484-b748-4833-926a-cc37d6bc5a52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4770e4aa-c1bf-43b2-9bd0-8ef6a7d88f12")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e1deb1b-c936-414b-bba2-047fd19c2071")
 			(effects
 				(font
 					(size 1 1)
@@ -13812,7 +14737,7 @@
 		(property "Reference" "R5"
 			(at 2.62 -2 0)
 			(layer "F.SilkS")
-			(uuid "d32816e1-3358-46e1-b8bc-643623fc05f9")
+			(uuid "249e578f-ddfd-4192-8172-366c62fe99a1")
 			(effects
 				(font
 					(size 1 1)
@@ -13824,7 +14749,7 @@
 			(at 3.81 2.31 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "7e5c3826-bc2f-48d4-baf8-29c0596476db")
+			(uuid "8cc6cf4a-020b-4808-a5bc-94a6baf7c63b")
 			(effects
 				(font
 					(size 1 1)
@@ -13836,18 +14761,18 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ed1fbe2e-9bcb-45ec-8df4-71f435ce21a4")
+			(uuid "b5d79d7a-c263-4ba9-b587-76fa55396882")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Резистор THT, 0.125W, MF, 1М ±5%"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e3821580-f12f-4d0a-8540-d4b5f536f76f")
+			(uuid "52b60801-188c-4e69-b4f2-62c5e454a7ac")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13990,6 +14915,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d05dfa30-d4c6-4071-8424-189fe7e3d42b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "KLS6-MF-1/4W-1MR-J"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f00b21d-f07e-4283-adee-0c8f63fbe98e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "KLS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ddd9642b-4d3d-4393-af89-c5e3652b0144")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f058527e-4fff-4fd5-bf76-ad2f3a08645c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "582414a9-18d4-4eae-8461-d1af26de85f9")
 			(effects
 				(font
 					(size 1 1)
@@ -14222,7 +15199,7 @@
 		(property "Reference" "C8"
 			(at -1.5 1.5 180)
 			(layer "F.SilkS")
-			(uuid "a29b0e3d-beaa-424a-9205-76a3c2e0b3dc")
+			(uuid "dee8da9c-bf58-4a23-b711-cd30b3fbbb0d")
 			(effects
 				(font
 					(size 1 1)
@@ -14234,7 +15211,7 @@
 			(at 2.5 2.56 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "65529d06-9463-4958-aa72-76fd0d99fa6d")
+			(uuid "e750c125-fb0d-4299-90b1-c03656e741df")
 			(effects
 				(font
 					(size 1 1)
@@ -14246,18 +15223,18 @@
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "64d5cacb-8130-4b45-8539-500f8f9ed223")
+			(uuid "53a136f7-3d51-4106-b27c-d39aa0bcd282")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Керамический дисковый или многослойный, диэлектрик X5R, X7R, в крайнем случае Y5V"
+		(property "Description" "Конденсатор THT, L5xW2.5xH5mm, pin pitch 5 mm,  X5R (X7R), 100nF ±20%, 50V"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c6ccf2ee-6f89-411e-9d02-98d1e27c43df")
+			(uuid "2e049b64-dcdc-4a75-ae74-be16de0dbf6e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14426,6 +15403,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c6ffd6d7-7b89-4f54-82ab-f6aea79b937d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5a6cb9b-f9ec-44b3-8028-a5d65cc0f914")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a23e8d5f-1535-430b-bd59-c49949e52302")
 			(effects
 				(font
 					(size 1 1)
@@ -14649,7 +15652,7 @@
 		(property "Reference" "R6"
 			(at -2 0 0)
 			(layer "F.SilkS")
-			(uuid "03ac19cf-ed12-46f4-a2f8-1f2f8d782106")
+			(uuid "c0240413-04a1-4fde-97e8-d2dc31e5c82d")
 			(effects
 				(font
 					(size 1 1)
@@ -14661,7 +15664,7 @@
 			(at 3.81 2.31 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e8ccd468-8432-4fa2-8ded-cd8c65116271")
+			(uuid "c8ed0d5d-d3dc-4d34-800d-3fb8526e5e87")
 			(effects
 				(font
 					(size 1 1)
@@ -14673,18 +15676,18 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b7cfd473-4925-4849-8aaf-94e8d208f330")
+			(uuid "dfc4f15f-b49c-4741-8268-c1cde400bdd7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Резистор THT, 0.125W, MF, 1М ±5%"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "07585772-2d12-4791-83e0-061dd429eb84")
+			(uuid "a0bdcf63-8f5e-409d-9c8e-14f446b2afc2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14827,6 +15830,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a832b896-4b77-47cd-a3f9-675fd7494029")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "KLS6-MF-1/4W-1MR-J"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b397ba11-bdf0-4cef-b9c0-7ecbac518ad5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "KLS"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc878c06-bfe4-4f17-a266-f182ecc0bf85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56f988b9-53d9-46d9-8f01-0f33b46cec1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bf52bdf-716d-433a-9256-0559781f6b13")
 			(effects
 				(font
 					(size 1 1)
@@ -15059,7 +16114,7 @@
 		(property "Reference" "R4"
 			(at 2.62 -2 0)
 			(layer "F.SilkS")
-			(uuid "1bc05a0f-3ce7-4a17-8d10-83e0ab8d4943")
+			(uuid "59a54386-8375-41f6-a00b-ee897a8f9b81")
 			(effects
 				(font
 					(size 1 1)
@@ -15071,7 +16126,7 @@
 			(at 3.81 2.31 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "5b63bf80-6731-428d-82cb-4bdba7432f01")
+			(uuid "e53e0307-e0ef-48ab-adc0-cea08fe54937")
 			(effects
 				(font
 					(size 1 1)
@@ -15083,18 +16138,18 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "12641b03-4382-4a87-9e35-39254c5e35a7")
+			(uuid "0e4085d1-74da-4c1e-bbe4-07965814a989")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Резистор THT, 0.125W, MF, 10k ±5%"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bbda639e-d2c9-4ed3-b587-24e3e749eb92")
+			(uuid "224141e3-0c4c-4e9d-86a7-b1b39de94d47")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15237,6 +16292,58 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "608dfbdd-9593-4c06-b01e-ceb9ad5de8fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "KLS6-MF-1/4W-10KR-J"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a4d6030-3478-4fa9-80a8-7ebb6c3a8f76")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "KLS"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5630b9c1-4f41-4b83-ae51-5fe99c5ec782")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5098b23-528e-4219-9ee8-9574c89ade40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c68c6c1-8e1c-41e0-8ed5-697804add0bc")
 			(effects
 				(font
 					(size 1 1)
@@ -15469,7 +16576,7 @@
 		(property "Reference" "C9"
 			(at 5.5 -2.5 0)
 			(layer "F.SilkS")
-			(uuid "1f3f4e9d-b6dd-4584-9139-ded1dd821f0b")
+			(uuid "068377ee-f97e-4d17-8c5b-9c8732a55bbf")
 			(effects
 				(font
 					(size 1 1)
@@ -15481,7 +16588,7 @@
 			(at 2.5 2.56 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e09f24f3-5e0e-476b-8657-c270fdc20b21")
+			(uuid "b350bea1-eaaa-4ef7-b598-818417f54bd3")
 			(effects
 				(font
 					(size 1 1)
@@ -15493,18 +16600,18 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5b31e158-4653-40aa-857b-734a227162c6")
+			(uuid "6993f023-d386-4b68-bfc9-8eb9a7e98598")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Конденсатор THT, L7xW2.5xH6.5mm, pin pitch 5 mm, MKT, 1nF ±20%, 63V"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fed7d871-b71c-4ec8-909b-2a742d76f455")
+			(uuid "92a7a12b-0496-45da-bd99-e0b2875ec8be")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15673,6 +16780,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "534e9034-f4b0-44c1-ab50-8c8f7c776fe3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19aa0c9b-3eef-45d8-b053-f8fa46699d87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f07049ba-a2d3-40ee-a75e-7f9ce784a219")
 			(effects
 				(font
 					(size 1 1)
@@ -15876,7 +17009,7 @@
 		(property "Reference" "C6"
 			(at 1 4 180)
 			(layer "F.SilkS")
-			(uuid "5c2a0156-a1e0-459d-9ab8-7d1a94dd0ce5")
+			(uuid "76cef33e-e615-44bd-9cb8-0def932b4fe9")
 			(effects
 				(font
 					(size 1 1)
@@ -15888,7 +17021,7 @@
 			(at 1.25 3.81 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e5a40eb3-3c25-4b33-a4a8-8ca7403ecc1f")
+			(uuid "024ceb6f-4d9b-4638-84e1-437354934ee2")
 			(effects
 				(font
 					(size 1 1)
@@ -15900,18 +17033,18 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8266716a-f14b-404e-bc46-98d56d9c1fdf")
+			(uuid "82728cf4-eac4-4e28-a053-494df0d60b29")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" "Танталовый, ниобиевый"
+		(property "Description" "Конденсатор THT, Ø5mm, H11mm, pin pitch 2.5mm, Tantalum Electrolityc, 1uF ±10%, 50V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fbf7964c-2418-4f1f-9303-80557ff1b0a4")
+			(uuid "fc5b2bca-d54e-46c3-a2d1-87124835c1a2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16080,6 +17213,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c9fe6765-bef1-4eb5-96b6-cf5a87851c36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f98da62-d1b9-4c8f-8fbe-f4452baee158")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8bea332-0822-49ce-a425-64b8941cc4dc")
 			(effects
 				(font
 					(size 1 1)
@@ -17429,7 +18588,7 @@
 		(property "Reference" "C5"
 			(at -2 0 0)
 			(layer "F.SilkS")
-			(uuid "836dfd0c-072e-4724-b7e8-57fd17da8903")
+			(uuid "21360a80-4869-4d2a-9232-e792b4954fbb")
 			(effects
 				(font
 					(size 1 1)
@@ -17441,7 +18600,7 @@
 			(at 2.5 2.56 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "39308944-9789-4bb4-a8be-77595954a9d5")
+			(uuid "503a3cdc-e45f-4f28-b0c2-e4bdd1800f1c")
 			(effects
 				(font
 					(size 1 1)
@@ -17453,18 +18612,18 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "79e69f9d-0cc8-4aef-a889-2b639e3e83a2")
+			(uuid "f95e43e2-6a36-4eb8-8df5-b8a05c81fa37")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Конденсатор THT, L5xW2.5xH5mm, pin pitch 5 mm, NP0, 10pF ±5%, 50V"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "66082e9d-99a8-42df-9b99-e05c62c5f566")
+			(uuid "f66ba5fe-d9ff-4022-9dfb-04f8d84332bb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17633,6 +18792,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d1d1d3ef-6a89-4d86-879e-cfecbd86a2b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1aab2d17-3510-4aac-84fa-5c661b77e90c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbdf80c3-3759-4fc5-9839-a0ddd31435aa")
 			(effects
 				(font
 					(size 1 1)
@@ -19621,7 +20806,7 @@
 		(property "Reference" "R11"
 			(at 0 2 0)
 			(layer "B.SilkS")
-			(uuid "cdac3b72-9c50-4c80-a3a9-990dc066aa69")
+			(uuid "899d03ad-0a75-4653-8500-a25024225ec2")
 			(effects
 				(font
 					(size 1 1)
@@ -19630,11 +20815,11 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0R"
 			(at 0 -1.75 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "038f0e98-2146-4815-b3ff-16f0306d05dc")
+			(uuid "5ac43897-04ac-41ff-8f73-2979139dc78c")
 			(effects
 				(font
 					(size 1 1)
@@ -19647,18 +20832,18 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "be75f604-193a-4e39-bd53-87d82fedc01d")
+			(uuid "84ffdf14-e509-4d46-a50f-5ef9ba783faf")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Резистор SMD, 0.125W, MF, 0R"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2f4ebc8b-d4b2-4dc1-b2b0-3f9422c1defc")
+			(uuid "acca480d-a8fd-4c0b-b054-bb547e3c8197")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19777,7 +20962,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Chipdip_link" "https://www.chipdip.ru/product/cr0805aj-000eas-resa-as-0805-0r-jumper-125mw-bourns-9000610549"
+		(property "Chipdip_link" "https://www.chipdip.ru/product/cr-05fl7-0r-rezistor-tolstoplenochnyy-125mvt-1-0ohm-viking-8020205931"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19811,6 +20996,62 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "f1485a0b-54ff-4a60-9e20-bc016fd7d84d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "CR-05JL7----0R"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "36de3b93-6d76-48e5-8668-a621a0226663")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "VIKING"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "959c5873-e95a-4626-9ee5-dba0480914b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cb62719d-aec1-46f2-a61d-4141373f8bdc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "87852d2b-4dd5-4968-91c8-9aed522e9462")
 			(effects
 				(font
 					(size 1 1)
@@ -20002,7 +21243,7 @@
 		(property "Reference" "R9"
 			(at 7.5 2.5 180)
 			(layer "B.SilkS")
-			(uuid "89b275cf-1101-4214-b6e2-9402625d5ef6")
+			(uuid "bad37f6b-349f-4e42-8bba-ca99d08c7211")
 			(effects
 				(font
 					(size 1 1)
@@ -20015,7 +21256,7 @@
 			(at 3.81 -2.31 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "56dfee39-1d6d-41c7-a523-1d54757dc33c")
+			(uuid "f49bb318-9d46-4be2-8195-e29c9de8cb9b")
 			(effects
 				(font
 					(size 1 1)
@@ -20028,18 +21269,18 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "468199d0-3e09-4ac8-8a17-1e2123b492ca")
+			(uuid "274bb807-63f3-4e61-9d1f-0a59f52d7eb7")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Резистор THT, 0.125W, MF, 4k7 ±5%"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6898cf05-5b31-4b2f-99ff-a949b8baa8f2")
+			(uuid "12ff591e-7c7d-42c6-8292-a5885b9dd374")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20192,6 +21433,62 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ae1e6240-4c2e-4eb5-a5d8-a313467211ef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "KLS6-MF-1/4W-4K7R-J"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d8249b6e-76e8-4986-8923-dad2d193ae54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "KLS"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e3f939ea-9ef1-49d8-bc30-0c9783ac1365")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Unit" "pcs"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "855cb45b-d2f4-4de4-8495-47fa211b46ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Type" "Electronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "034a95a3-daa8-4355-b418-235c3e98a38d")
 			(effects
 				(font
 					(size 1 1)

@@ -12886,7 +12886,7 @@
 				)
 			)
 		)
-		(property "Description" "Провод МГШВ-0,2 кв.мм (AWG24), красный, длина 50 мм"
+		(property "Description" "Провод МГШВ-0,2 кв.мм (AWG24), красный, длина 80 мм"
 			(at 242.57 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -12927,6 +12927,14 @@
 				(path "/9ae8a131-9f13-49bd-8fb7-91ebb13a6119"
 					(reference "_WIRE2")
 					(unit 1)
+					(variant
+						(name "SIM-PCB")
+						(in_bom no)
+					)
+					(variant
+						(name "SW-PCB")
+						(in_bom no)
+					)
 				)
 			)
 		)
@@ -13097,7 +13105,7 @@
 				)
 			)
 		)
-		(property "Description" "Провод МГШВ-0,2 кв.мм (AWG24), белый, длина 100 мм"
+		(property "Description" "Провод МГШВ-0,2 кв.мм (AWG24), белый, длина 220 мм"
 			(at 242.57 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -13138,6 +13146,24 @@
 				(path "/9ae8a131-9f13-49bd-8fb7-91ebb13a6119"
 					(reference "_WIRE1")
 					(unit 1)
+					(variant
+						(name "SIM-PAN")
+						(field
+							(name "Description")
+							(value "Провод МГШВ-0,2 кв.мм (AWG24), белый, длина 80 мм")
+						)
+					)
+					(variant
+						(name "SIM-PCB")
+						(in_bom no)
+					)
+					(variant
+						(name "SW-PCB")
+						(field
+							(name "Description")
+							(value "Провод МГШВ-0,2 кв.мм (AWG24), белый, длина 140 мм")
+						)
+					)
 				)
 			)
 		)
@@ -13299,7 +13325,7 @@
 				)
 			)
 		)
-		(property "Description" "Провод МГШВ-0,2 кв.мм (AWG24), чёрный, длина 100 мм"
+		(property "Description" "Провод МГШВ-0,2 кв.мм (AWG24), чёрный, длина 140 мм"
 			(at 242.57 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -13340,6 +13366,20 @@
 				(path "/9ae8a131-9f13-49bd-8fb7-91ebb13a6119"
 					(reference "_WIRE3")
 					(unit 1)
+					(variant
+						(name "SIM-PCB")
+						(field
+							(name "Description")
+							(value "Провод МГШВ-0,2 кв.мм (AWG24), чёрный, длина 60 мм")
+						)
+					)
+					(variant
+						(name "SW-PCB")
+						(field
+							(name "Description")
+							(value "Провод МГШВ-0,2 кв.мм (AWG24), чёрный, длина 60 мм")
+						)
+					)
 				)
 			)
 		)
